@@ -1,0 +1,518 @@
+main 2011-11-21 10:45:38,298 INFO App started IN net.sf.xfresh.util.Starter
+main 2011-11-21 10:45:39,247 INFO Server started: 169 ms IN net.sf.xfresh.jetty.JettyServerInitializer
+2006676605@qtp-1903271789-1 2011-11-21 10:46:04,952 DEBUG handle url => {./frontend/src/web/index.xml} IN net.sf.xfresh.jetty.YaletXmlPageHandler
+2006676605@qtp-1903271789-1 2011-11-21 10:46:04,953 INFO Start process user request => {./frontend/src/web/index.xml}, remote ip => {127.0.0.1}, method=GET IN net.sf.xfresh.core.YaletProcessor
+2006676605@qtp-1903271789-1 2011-11-21 10:46:04,994 DEBUG needTransform for ./frontend/src/web/index.xml = true IN net.sf.xfresh.core.impl.SimpleInternalRequest
+2006676605@qtp-1903271789-1 2011-11-21 10:46:06,099 INFO Processing time for user request => {./frontend/src/web/index.xml} is 1146 ms IN net.sf.xfresh.core.YaletProcessor
+1315587180@qtp-1903271789-3 2011-11-21 10:46:48,317 DEBUG handle url => {./frontend/src/web/search.xml} IN net.sf.xfresh.jetty.YaletXmlPageHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:48,317 INFO Start process user request => {./frontend/src/web/search.xml}, remote ip => {127.0.0.1}, method=GET IN net.sf.xfresh.core.YaletProcessor
+1315587180@qtp-1903271789-3 2011-11-21 10:46:48,326 DEBUG needTransform for ./frontend/src/web/search.xml = true IN net.sf.xfresh.core.impl.SimpleInternalRequest
+1315587180@qtp-1903271789-3 2011-11-21 10:46:48,436 INFO Starting process yalet => {userQuery} IN net.sf.xfresh.core.impl.DefaultSingleYaletProcessor
+1315587180@qtp-1903271789-3 2011-11-21 10:46:48,436 DEBUG name = _dir IN net.sf.xfresh.core.impl.SimpleInternalRequest
+1315587180@qtp-1903271789-3 2011-11-21 10:46:48,436 DEBUG value = 010000 math-phis science IN net.sf.xfresh.core.impl.SimpleInternalRequest
+1315587180@qtp-1903271789-3 2011-11-21 10:46:48,436 DEBUG name = _spec IN net.sf.xfresh.core.impl.SimpleInternalRequest
+1315587180@qtp-1903271789-3 2011-11-21 10:46:48,436 DEBUG value = mathematics IN net.sf.xfresh.core.impl.SimpleInternalRequest
+1315587180@qtp-1903271789-3 2011-11-21 10:46:48,436 DEBUG name = _city IN net.sf.xfresh.core.impl.SimpleInternalRequest
+1315587180@qtp-1903271789-3 2011-11-21 10:46:48,436 DEBUG value = United States IN net.sf.xfresh.core.impl.SimpleInternalRequest
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,003 INFO Processing time for yalet => {userQuery} is 567 ms IN net.sf.xfresh.core.impl.DefaultSingleYaletProcessor
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,075 DEBUG city: Japan IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,076 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,076 DEBUG id: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,076 DEBUG name: University of Tokyo IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,076 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,077 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,077 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,077 DEBUG id: 2 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,077 DEBUG name: Tsinghua University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,078 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,078 DEBUG city: Poland IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,078 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,078 DEBUG id: 3 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,078 DEBUG name: Warsaw University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,078 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,079 DEBUG city: Russian Federation IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,079 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,079 DEBUG id: 4 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,079 DEBUG name: Saint-Petersburg State University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,079 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,080 DEBUG city: Russian Federation IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,080 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,080 DEBUG id: 5 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,080 DEBUG name: Saratov State University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,080 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,081 DEBUG city: Ukraine IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,081 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,081 DEBUG id: 6 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,081 DEBUG name: Kyiv National Taras Shevchenko University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,081 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,082 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,082 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,082 DEBUG id: 7 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,082 DEBUG name: Shanghai Jiao Tong University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,082 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,083 DEBUG city: Russian Federation IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,083 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,083 DEBUG id: 8 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,083 DEBUG name: Moscow State University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,083 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,084 DEBUG city: Russian Federation IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,084 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,084 DEBUG id: 9 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,084 DEBUG name: Saint-Petersburg State University of Information Technology, Mechanics and Optics IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,084 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,085 DEBUG city: Belarus IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,086 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,086 DEBUG id: 10 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,086 DEBUG name: Belarusian State University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,086 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,086 DEBUG city: South Korea IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,087 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,087 DEBUG id: 11 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,087 DEBUG name: Korea Advanced Institute of Science and Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,087 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,088 DEBUG city: Hong Kong IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,088 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,089 DEBUG id: 12 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,089 DEBUG name: The Chinese University of Hong Kong IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,090 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,090 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,090 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,090 DEBUG id: 13 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,090 DEBUG name: Zhejiang University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,091 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,091 DEBUG city: South Korea IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,091 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,091 DEBUG id: 14 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,091 DEBUG name: Seoul National University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,092 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,092 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,092 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,092 DEBUG id: 15 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,093 DEBUG name: Fudan University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,093 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,094 DEBUG city: Russian Federation IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,094 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,095 DEBUG id: 16 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,096 DEBUG name: Moscow Institute of Physics and Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,098 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,098 DEBUG city: Poland IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,098 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,099 DEBUG id: 17 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,099 DEBUG name: Jagiellonian University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,099 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,099 DEBUG city: Singapore IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,099 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,100 DEBUG id: 18 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,100 DEBUG name: Nanyang Technological University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,100 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,100 DEBUG city: United States IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,100 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,101 DEBUG id: 19 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,101 DEBUG name: Massachusetts Institute of Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,101 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,101 DEBUG city: Slovakia IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,102 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,102 DEBUG id: 20 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,102 DEBUG name: Comenius University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,102 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,103 DEBUG city: Russian Federation IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,103 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,103 DEBUG id: 21 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,103 DEBUG name: Ural State University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,103 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,104 DEBUG city: Taiwan IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,104 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,105 DEBUG id: 22 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,105 DEBUG name: National Taiwan University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,105 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,105 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,106 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,106 DEBUG id: 23 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,106 DEBUG name: University of Electronic Science and Technology of China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,106 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,106 DEBUG city: United States IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,107 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,107 DEBUG id: 24 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,107 DEBUG name: Stanford University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,107 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,107 DEBUG city: United Kingdom IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,108 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,108 DEBUG id: 25 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,108 DEBUG name: University of Oxford IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,108 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,108 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,109 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,109 DEBUG id: 26 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,109 DEBUG name: Peking University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,109 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,109 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,110 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,110 DEBUG id: 27 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,110 DEBUG name: Wuhan University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,110 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,110 DEBUG city: Japan IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,111 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,111 DEBUG id: 28 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,111 DEBUG name: Kyoto University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,111 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,111 DEBUG city: Ukraine IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,111 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,112 DEBUG id: 29 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,112 DEBUG name: Taurida NU IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,112 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,112 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,113 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,113 DEBUG id: 30 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,113 DEBUG name: Yali middle school IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,113 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,113 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,113 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,113 DEBUG id: 31 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,113 DEBUG name: Zhongshan (Sun Yat-sen) University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,113 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,114 DEBUG city: Canada IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,114 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,114 DEBUG id: 32 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,114 DEBUG name: University of Waterloo IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,114 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,115 DEBUG city: Russian Federation IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,115 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,115 DEBUG id: 33 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,115 DEBUG name: Novosibirsk State University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,115 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,115 DEBUG city: Poland IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,116 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,116 DEBUG id: 34 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,116 DEBUG name: University of Wroclaw IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,116 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,116 DEBUG city: Bulgaria IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,116 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,116 DEBUG id: 35 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,117 DEBUG name: Sofia University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,117 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,117 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,117 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,117 DEBUG id: 36 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,117 DEBUG name: Beijing Jiaotong University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,117 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,118 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,118 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,118 DEBUG id: 37 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,118 DEBUG name: ShaoXing One Senior High School IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,118 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,118 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,119 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,119 DEBUG id: 38 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,119 DEBUG name: Shanghai Jiaotong University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,119 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,119 DEBUG city: Ukraine IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,119 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,119 DEBUG id: 39 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,119 DEBUG name: Lviv National University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,119 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,120 DEBUG city: Latvia IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,120 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,120 DEBUG id: 40 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,120 DEBUG name: University of Latvia IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,120 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,120 DEBUG city: Russian Federation IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,121 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,121 DEBUG id: 41 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,121 DEBUG name: AESC MSU IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,121 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,121 DEBUG city: United States IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,121 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,121 DEBUG id: 42 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,121 DEBUG name: University of Central Florida IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,121 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,122 DEBUG city: Argentina IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,122 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,122 DEBUG id: 43 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,122 DEBUG name: Universidad de Buenos Aires IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,123 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,123 DEBUG city: United States IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,123 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,123 DEBUG id: 44 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,123 DEBUG name: Carnegie Mellon University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,123 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,124 DEBUG city: Iran IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,124 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,124 DEBUG id: 45 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,124 DEBUG name: Amirkabir University of Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,124 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,124 DEBUG city: Russian Federation IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,124 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,124 DEBUG id: 46 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,124 DEBUG name: Tomsk State University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,125 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,125 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,125 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,125 DEBUG id: 47 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,125 DEBUG name: Harbin Institute of Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,125 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,126 DEBUG city: Georgia IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,126 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,126 DEBUG id: 48 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,126 DEBUG name: Ivane Javakhishvili Tbilisi State University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,126 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,126 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,126 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,126 DEBUG id: 49 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,126 DEBUG name: Sichuan University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,127 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,127 DEBUG city: Ukraine IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,127 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,127 DEBUG id: 50 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,127 DEBUG name: Vinnytsia National Technical University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,127 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,128 DEBUG city: Canada IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,128 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,128 DEBUG id: 51 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,128 DEBUG name: University of British Columbia IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,128 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,128 DEBUG city: Ukraine IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,128 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,128 DEBUG id: 52 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,128 DEBUG name: NTUU "KPI" IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,128 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,129 DEBUG city: Czech Republic IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,129 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,129 DEBUG id: 53 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,129 DEBUG name: Charles University in Prague IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,129 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,130 DEBUG city: Egypt IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,130 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,130 DEBUG id: 54 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,130 DEBUG name: Faculty of Computers and Information - Cairo University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,130 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,130 DEBUG city: Brazil IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,130 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,130 DEBUG id: 55 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,130 DEBUG name: UFPE IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,130 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,131 DEBUG city: Bangladesh IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,131 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,131 DEBUG id: 56 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,131 DEBUG name: BUET IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,131 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,132 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,132 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,132 DEBUG id: 57 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,132 DEBUG name: UESTC IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,132 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,132 DEBUG city: India IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,132 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,132 DEBUG id: 58 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,132 DEBUG name: IIIT Hyderabad IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,133 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,133 DEBUG city: Japan IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,133 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,133 DEBUG id: 59 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,133 DEBUG name: Osaka University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,133 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,134 DEBUG city: United States IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,134 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,134 DEBUG id: 60 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,134 DEBUG name: University of Florida IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,134 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,134 DEBUG city: Armenia IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,134 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,134 DEBUG id: 61 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,134 DEBUG name: Russian-Armenian University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,134 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,135 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,135 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,135 DEBUG id: 62 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,135 DEBUG name: ZheJiang University of Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,135 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,136 DEBUG city: Sweden IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,136 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,136 DEBUG id: 63 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,136 DEBUG name: KTH - Royal Institute of Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,136 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,136 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,136 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,136 DEBUG id: 64 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,137 DEBUG name: East China Normal University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,137 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,137 DEBUG city: Peru IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,137 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,137 DEBUG id: 65 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,137 DEBUG name: Universidad Nacional de Ingeniería IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,137 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,138 DEBUG city: Croatia IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,138 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,138 DEBUG id: 66 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,138 DEBUG name: FER Zagreb IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,138 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,138 DEBUG city: Viet Nam IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,138 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,139 DEBUG id: 67 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,139 DEBUG name: FPT University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,139 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,139 DEBUG city: Japan IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,139 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,139 DEBUG id: 68 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,139 DEBUG name: Tokyo Institute of Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,139 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,140 DEBUG city: Indonesia IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,140 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,140 DEBUG id: 69 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,140 DEBUG name: Institut Teknologi Bandung IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,140 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,140 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,140 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,141 DEBUG id: 70 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,141 DEBUG name: South China University of Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,141 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,141 DEBUG city: Kazakhstan IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,141 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,141 DEBUG id: 71 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,141 DEBUG name: KBTU IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,141 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,142 DEBUG city: Egypt IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,142 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,142 DEBUG id: 72 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,142 DEBUG name: German University in Cairo IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,143 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,143 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,143 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,143 DEBUG id: 73 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,143 DEBUG name: hust IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,143 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,144 DEBUG city: South Korea IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,144 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,144 DEBUG id: 74 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,144 DEBUG name: KAIST IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,144 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,145 DEBUG city: United States IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,145 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,145 DEBUG id: 75 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,145 DEBUG name: University of Michigan Ann Arbor IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,145 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,146 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,146 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,146 DEBUG id: 76 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,146 DEBUG name: Hangzhou Dianzi University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,146 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,146 DEBUG city: India IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,147 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,147 DEBUG id: 77 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,147 DEBUG name: IIIT Allahabad IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,147 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,147 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,147 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,147 DEBUG id: 78 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,147 DEBUG name: HIT IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,147 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,148 DEBUG city: Slovakia IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,148 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,148 DEBUG id: 79 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,148 DEBUG name: University of Pavol Jozef Safarik, Kosice IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,148 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,149 DEBUG city: Japan IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,149 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,149 DEBUG id: 80 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,149 DEBUG name: University of AIZU IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,149 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,149 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,149 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,149 DEBUG id: 81 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,149 DEBUG name: Tongji University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,149 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,150 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,150 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,150 DEBUG id: 82 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,150 DEBUG name: Tianjin University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,150 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,151 DEBUG city: Japan IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,151 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,151 DEBUG id: 83 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,151 DEBUG name: Keio University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,151 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,151 DEBUG city: India IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,151 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,151 DEBUG id: 84 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,151 DEBUG name: IIT Madras IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,151 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,152 DEBUG city: Bangladesh IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,152 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,152 DEBUG id: 85 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,152 DEBUG name: University of Dhaka IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,152 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,153 DEBUG city: Ukraine IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,153 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,153 DEBUG id: 86 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,153 DEBUG name: Odessa National University named after I. I. Mechnickov IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,153 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,153 DEBUG city: United States IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,153 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,153 DEBUG id: 87 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,153 DEBUG name: Georgia Institute of Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,153 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,154 DEBUG city: Russian Federation IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,154 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,154 DEBUG id: 88 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,154 DEBUG name: MSU Lomonosov IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,154 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,155 DEBUG city: Bangladesh IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,155 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,155 DEBUG id: 89 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,155 DEBUG name: Shahjalal University of Science and Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,155 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,155 DEBUG city: Egypt IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,155 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,156 DEBUG id: 90 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,156 DEBUG name: Faculty of Engineering, Alexandria University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,156 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,156 DEBUG city: Japan IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,156 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,156 DEBUG id: 91 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,156 DEBUG name: Tohoku University IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,156 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,157 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,157 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,157 DEBUG id: 92 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,157 DEBUG name: BUPT IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,157 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,158 DEBUG city: Japan IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,158 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,158 DEBUG id: 93 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,158 DEBUG name: Waseda IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,158 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,158 DEBUG city: China IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,158 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,158 DEBUG id: 94 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,158 DEBUG name: Beijing University of Posts and Telecommunications IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,159 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,159 DEBUG city: India IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,159 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,159 DEBUG id: 95 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,159 DEBUG name: National Institute of Technology, Trichy IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,159 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,160 DEBUG city: United States IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,160 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,160 DEBUG id: 96 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,160 DEBUG name: University of Utah IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,160 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,160 DEBUG city: India IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,160 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,160 DEBUG id: 97 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,160 DEBUG name: IIT Kanpur IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,160 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,161 DEBUG city: India IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,161 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,161 DEBUG id: 98 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,161 DEBUG name: Madras Institute of Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,161 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,162 DEBUG city: India IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,162 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,162 DEBUG id: 99 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,162 DEBUG name: IIT Delhi IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,162 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,162 DEBUG city: Poland IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,162 DEBUG class: java.lang.Object@37c9afa1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,162 DEBUG id: 100 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,162 DEBUG name: Poznan University of Technology IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,163 DEBUG rating: 1 IN net.sf.xfresh.core.sax.DefaultSaxHandler
+1315587180@qtp-1903271789-3 2011-11-21 10:46:49,230 INFO Processing time for user request => {./frontend/src/web/search.xml} is 913 ms IN net.sf.xfresh.core.YaletProcessor

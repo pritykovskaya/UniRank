@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="BrandAnalytic" default="all" basedir=".">
+
+    <path id="libs">
+            <fileset dir="${lib.dir}" includes="**/*.jar"/>
+            <fileset dir="${dist.dir}" includes="**/*.jar"/>
+    </path>
+
+    <property name="src.grabber.dir" location="${project.dir}/grabber/src/java/"/>
+    <pathconvert pathsep=" " property="libs_manifest" refid="libs"/>
+
+    <target name="all">
+
+	<!--class-файлы в папку build/classes-->
+        <javac srcdir="${src.grabber.dir}"
+               destdir="${build.dir}/classes"
+               debug="true"
+               deprecation="true"
+               optimize="false"
+               includeAntRuntime="false">
+            <classpath refid="libs"/>
+        </javac>
+
+	<!--собирается архив с классом, у которого есть метод main в папку dist-->
+        <jar destfile="${dist.dir}/grabber.jar" basedir="${classes.dir}" includes="ru/brandanalyst/grabber/**/*.*">
+            <manifest>
+                <attribute name="Built-By" value="grabber: build.xml"/>
+                <attribute name="Class-Path" value="${libs_manifest} ${build.dir}/log4j.xml"/>
+            </manifest>
+        </jar>
+
+        <mkdir dir="${build.dir}/grabber"/>
+        <copy todir="${build.dir}/grabber" overwrite="true">
+            <fileset dir="${project.dir}/grabber" includes="**/*.*" excludes="**/*.java build.xml *.iml"/>
+        </copy>
+	<echo>grabber building complete</echo>
+    </target>
+
+</project>
+

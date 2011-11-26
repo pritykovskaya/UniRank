@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="UniRank" default="all" basedir=".">
+
+    <!--main paths defenition-->
+    <property name="project.dir" location="."/>
+    <property name="lib.dir" location="${project.dir}/lib"/>
+    <property name="build.dir" location="${project.dir}/build"/>
+    <property name="classes.dir" location="${build.dir}/classes"/>
+    <property name="dist.dir" location="${build.dir}/dist"/>
+
+    <!--пути к вложенным билд файлам-->
+    <property name="core.build" location="${project.dir}/core/build.xml"/>
+    <property name="grabber.build" location="${project.dir}/grabber/build.xml"/>
+    <property name="indexer.build" location="${project.dir}/indexer/build.xml"/>
+    <property name="frontend.build" location="${project.dir}/frontend/build.xml"/>
+    <property name="seacher.build" location="${project.dir}/searcher/build.xml"/>
+
+    <!-- classpath -->
+    <path id="libs">
+        <fileset dir="lib" includes="**/*.jar"/>
+        <fileset dir="${classes.dir}" includes="**/*.class"/>
+    </path>
+
+    <!--iсоздание папок-->
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${classes.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+    </target>
+
+    <!--далее по всем таргетам вызываются вложенные билдеры-->
+    <target name="core" depends="init">
+        <ant antfile="${core.build}"/>
+    </target>
+
+    <target name="indexer" depends="core">
+        <ant antfile="${indexer.build}"/>
+    </target>
+
+    <target name="seacher" depends="indexer">
+        <ant antfile="${seacher.build}"/>
+    </target>
+
+    <target name="frontend" depends="seacher">
+        <ant antfile="${frontend.build}"/>
+    </target>
+
+    <target name="grabber" depends="core">
+        <ant antfile="${grabber.build}"/>
+    </target>
+
+    <!--по умолчанию вызывается этот таргет (тут пара строчек лишние, но так понятнее)-->
+    <target name="all" depends="init">
+        <antcall target="core"/>
+        <antcall target="indexer"/>
+        <antcall target="frontend"/>
+        <antcall target="grabber"/>
+        <antcall target="seacher"/>
+        <!--<antcall target="checkstyle"/>-->
+        <!--<antcall target="findbugs"/>-->
+    </target>
+
+    <!--для запуска различных модулей испольются следующие таргеты-->
+    <target name="run_indexer">
+        <java dir="${build.dir}" jar="${dist.dir}/core.jar" fork="true">
+            <jvmarg value="-Xms64m"/>
+            <jvmarg value="-Xmx1750m"/>
+            <arg value="/indexer/src/scripts/beans.xml" />
+        </java>
+    </target>
+
+    <target name="run_miner">
+        <java dir="${build.dir}" jar="${dist.dir}/core.jar" fork="true">
+            <jvmarg value="-Xms64m"/>
+            <jvmarg value="-Xmx1750m"/>
+            <arg value="/miner/src/scripts/beans.xml" />
+        </java>
+    </target>
+
+    <target name="run_frontend">
+        <java dir="${build.dir}" jar="${dist.dir}/core.jar" fork="true">
+            <jvmarg value="-Xms64m"/>
+            <jvmarg value="-Xmx1750m"/>
+            <arg value="/frontend/src/scripts/beans.xml" />
+        </java>
+    </target>
+ <target name="checkstyle">
+
+        <delete file="checkstyle_report.xml"/>
+        <delete file="checkstyle_report.htm"/>
+
+        <taskdef resource="checkstyletask.properties" classpath="${lib.dir}/checkstyle/checkstyle-5.4-all.jar"/>
+        <checkstyle config="code-validation/checks.xml"
+                    failureProperty="checkstyle.failure"
+                    failOnViolation="false">
+            <formatter type="xml" tofile="checkstyle_report.xml"/>
+            <fileset dir="${project.dir}" includes="**/*.java" excludes="**/net/**/*.java **/test/** "/>
+        </checkstyle>
+
+        <xslt in="checkstyle_report.xml" out="checkstyle_report.htm" style="code-validation/checkstyle.xsl">
+            <outputproperty name="method" value="html"/>
+            <outputproperty name="standalone" value="yes"/>
+            <outputproperty name="encoding" value="iso8859_1"/>
+            <outputproperty name="indent" value="yes"/>
+        </xslt>
+    </target>
+
+    <target name="findbugs">
+
+        <delete file="findbugs_report.xml"/>
+
+        <taskdef name="findbugs" classpath="${lib.dir}/findbugs/findbugs-ant.jar"
+                 classname="edu.umd.cs.findbugs.anttask.FindBugsTask"/>
+
+        <findbugs home="${lib.dir}/findbugs/"
+                  output="xml"
+                  outputFile="findbugs_report.xml">
+            <auxClasspath refid="libs"/>
+            <sourcePath path="${project.dir}"/>
+            <class location="${build.dir}/"/>
+        </findbugs>
+    </target>
+
+    <target name="findbugs_html">
+
+        <delete file="findbugs_report.html"/>
+
+        <taskdef name="findbugs" classpath="${lib.dir}/findbugs/findbugs-ant.jar"
+                 classname="edu.umd.cs.findbugs.anttask.FindBugsTask"/>
+
+        <findbugs home="${lib.dir}/findbugs/"
+                  output="html"
+                  outputFile="findbugs_report.html">
+            <auxClasspath refid="libs"/>
+            <sourcePath path="${project.dir}"/>
+            <class location="${build.dir}/"/>
+        </findbugs>
+    </target>
+</project>
+

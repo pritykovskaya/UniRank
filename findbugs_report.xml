@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="1.3.9" sequence="0" timestamp="1321864356411" analysisTimestamp="1321864358973" release="">
+  <Project projectName="">
+    <Jar>/home/natasha/UniRank/build</Jar>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/checkstyle/antlr-2.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/checkstyle/checkstyle-5.4-all.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/checkstyle/checkstyle-5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/checkstyle/commons-beanutils-core-1.8.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/checkstyle/commons-cli-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/checkstyle/commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/checkstyle/google-collections-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/commons-io-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/asm-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/asm-analysis-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/asm-commons-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/asm-tree-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/asm-util-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/asm-xml-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/bcel.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/commons-lang-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/findbugs-ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/findbugs.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/jFormatString.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/jaxen-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/jdepend-2.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/jsr305.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/findbugs/mysql-connector-java-5.1.7-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/gson-1.7.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/httpclient/commons-logging-1.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/httpclient/httpclient-4.0-beta2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/httpclient/httpcore-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/httpclient/httpcore-nio-4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/httpclient/httpmime-4.0-beta2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-cli-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-codec-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-collections-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-collections.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-dbcp-1.2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-email-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-httpclient-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-lang.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-logging.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-net-ftp-2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jakarta-commons/commons-pool.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jetbrains/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jetty/jetty-6.1.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jetty/jetty-util-6.1.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/jetty/servlet-api-2.5-20081211.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/junit-4.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/log4j-1.2.15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/lucene-analyzers-3.4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/lucene-core-3.4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/mysql-connector-java-5.1.18-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/rhino/js.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/saxon/saxon9-dom.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/saxon/saxon9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/spring/spring-beans.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/spring/spring-context.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/spring/spring-core.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/spring/spring-dao.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/spring/spring-jdbc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/spring/spring-mock.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/spring/spring-support.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/spring/spring-web.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/twitter4j-core-2.2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/webharvest/activation.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/webharvest/bsh.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/webharvest/groovy-all-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/webharvest/htmlcleaner.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/webharvest/js.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/webharvest/mail.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/webharvest/webharvest_2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/xalan/serializer.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/xalan/xalan.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/xalan/xercesImpl.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/xfresh/xfresh-core.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/lib/xfresh/xfresh-db.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/base/Request.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/base/RequestYalet.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/ErrorInfo.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/InternalRequest.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/InternalResponse.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/RedirHandler.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/SaxGenerator.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/SaxHandler.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/SaxWriter.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/SelfSaxWriter.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/SelfWriter.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/SingleYaletProcessor.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/Yalet.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/YaletFilter.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/YaletProcessor$1.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/YaletProcessor$MyXMLSerializer.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/YaletProcessor.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/YaletResolver.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/YaletResolvingException.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/YaletSupport.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/impl/DefaultSingleYaletProcessor.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/impl/DefaultYaletSupport.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/impl/SimpleInternalRequest.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/impl/SimpleInternalResponse$1.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/impl/SimpleInternalResponse.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/sax/DefaultSaxGenerator.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/sax/DefaultSaxHandler$1.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/sax/DefaultSaxHandler$ValueInfo.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/sax/DefaultSaxHandler.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/sax/MapSelfSaxWriter.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/servlet/Dispatcher.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/spring/SpringYaletResolver.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/SaxAttributable.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Tagable.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$1.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$2.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$3.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$4.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$5.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$6.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$7.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$8.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$Attribute$1.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$Attribute.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler$Tag.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/core/xml/Xmler.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/AuthHandler.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/ContentWriter$1.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/ContentWriter.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/ExtYaletFilter.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/ExtYaletSupport.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/HttpLoader.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/HttpMethodResult.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/LoadedXml.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/auth/AlwaysNoAuthHandler.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/auth/SimpleHttpAuthHandler.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/ext/auth/SimpleParamAuthHandler.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/jetty/JettyServerInitializer.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/jetty/SingleYaletHandler.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/jetty/YaletXmlPageHandler.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/util/DigestUtils.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/util/Starter.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/net/sf/xfresh/util/XmlUtil.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/db/Database.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/model/Direction.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/model/Faculty.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/model/RankingMethod.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/model/RankingRawInfoDescription.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/model/RankingRawInfoResult.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/model/RankingResult.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/model/Speciality.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/model/SpecialityFaculty.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/model/University.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/utils/DBResponse.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/utils/FacultyDescription.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/core/utils/UnivDescription.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/frontend/models/UserQueryManager.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/frontend/yalets/UserQueryYalet.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/grabber/Main.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/grabber/TopCoderListener.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/grabber/TopCoderWrapper.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/indexer/Indexer.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/seacher/Searcher.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/seacher/UserQuery.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/searcher/Searcher.class</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/natasha/UniRank/build/classes/ru/unirank/searcher/UserQuery.class</AuxClasspathEntry>
+    <SrcDir>/home/natasha/UniRank</SrcDir>
+  </Project>
+  <BugInstance type="SE_BAD_FIELD" priority="2" abbrev="Se" category="BAD_PRACTICE">
+    <Class classname="net.sf.xfresh.core.servlet.Dispatcher">
+      <SourceLine classname="net.sf.xfresh.core.servlet.Dispatcher" start="49" end="78" sourcefile="Dispatcher.java" sourcepath="net/sf/xfresh/core/servlet/Dispatcher.java"/>
+    </Class>
+    <Field classname="net.sf.xfresh.core.servlet.Dispatcher" name="yaletProcessor" signature="Lnet/sf/xfresh/core/YaletProcessor;" isStatic="false">
+      <SourceLine classname="net.sf.xfresh.core.servlet.Dispatcher" sourcefile="Dispatcher.java" sourcepath="net/sf/xfresh/core/servlet/Dispatcher.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
+    <Class classname="net.sf.xfresh.core.xml.Xmler">
+      <SourceLine classname="net.sf.xfresh.core.xml.Xmler" start="15" end="258" sourcefile="Xmler.java" sourcepath="net/sf/xfresh/core/xml/Xmler.java"/>
+    </Class>
+    <Method classname="net.sf.xfresh.core.xml.Xmler" name="tag" signature="(Ljava/lang/String;Ljava/lang/String;)Lnet/sf/xfresh/core/xml/Xmler$Tag;" isStatic="true">
+      <SourceLine classname="net.sf.xfresh.core.xml.Xmler" start="151" end="156" startBytecode="0" endBytecode="18" sourcefile="Xmler.java" sourcepath="net/sf/xfresh/core/xml/Xmler.java"/>
+    </Method>
+    <LocalVariable name="value" register="2" pc="25" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="net.sf.xfresh.core.xml.Xmler" start="154" end="154" startBytecode="24" endBytecode="24" sourcefile="Xmler.java" sourcepath="net/sf/xfresh/core/xml/Xmler.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="value"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE">
+    <Class classname="net.sf.xfresh.jetty.JettyServerInitializer">
+      <SourceLine classname="net.sf.xfresh.jetty.JettyServerInitializer" start="19" end="72" sourcefile="JettyServerInitializer.java" sourcepath="net/sf/xfresh/jetty/JettyServerInitializer.java"/>
+    </Class>
+    <Method classname="net.sf.xfresh.jetty.JettyServerInitializer" name="setHandlers" signature="([Lorg/mortbay/jetty/Handler;)V" isStatic="false">
+      <SourceLine classname="net.sf.xfresh.jetty.JettyServerInitializer" start="37" end="38" startBytecode="0" endBytecode="61" sourcefile="JettyServerInitializer.java" sourcepath="net/sf/xfresh/jetty/JettyServerInitializer.java"/>
+    </Method>
+    <Field classname="net.sf.xfresh.jetty.JettyServerInitializer" name="handlers" signature="[Lorg/mortbay/jetty/Handler;" isStatic="false">
+      <SourceLine classname="net.sf.xfresh.jetty.JettyServerInitializer" sourcefile="JettyServerInitializer.java" sourcepath="net/sf/xfresh/jetty/JettyServerInitializer.java"/>
+    </Field>
+    <LocalVariable name="handlers" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="net.sf.xfresh.jetty.JettyServerInitializer" start="37" end="37" startBytecode="2" endBytecode="2" sourcefile="JettyServerInitializer.java" sourcepath="net/sf/xfresh/jetty/JettyServerInitializer.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" abbrev="DLS" category="STYLE">
+    <Class classname="net.sf.xfresh.util.Starter">
+      <SourceLine classname="net.sf.xfresh.util.Starter" start="12" end="19" sourcefile="Starter.java" sourcepath="net/sf/xfresh/util/Starter.java"/>
+    </Class>
+    <Method classname="net.sf.xfresh.util.Starter" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="net.sf.xfresh.util.Starter" start="16" end="19" startBytecode="0" endBytecode="15" sourcefile="Starter.java" sourcepath="net/sf/xfresh/util/Starter.java"/>
+    </Method>
+    <LocalVariable name="context" register="1" pc="26" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="net.sf.xfresh.util.Starter" start="18" end="18" startBytecode="25" endBytecode="25" sourcefile="Starter.java" sourcepath="net/sf/xfresh/util/Starter.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="context"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" abbrev="DLS" category="STYLE">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="performQuery" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="32" end="37" startBytecode="0" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <LocalVariable name="rs" register="3" pc="18" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="33" end="33" startBytecode="17" endBytecode="17" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="rs"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.STORE_OF_DATABASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DMI_CONSTANT_DB_PASSWORD" priority="2" abbrev="Dm" category="SECURITY">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="connectToDB" signature="()V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="17" end="28" startBytecode="0" endBytecode="27" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <SourceLine classname="ru.unirank.core.db.Database" start="21" end="21" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+  </BugInstance>
+  <BugInstance type="EC_UNRELATED_TYPES" priority="1" abbrev="EC" category="CORRECTNESS">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addSpeciality" signature="(Lru/unirank/core/model/Speciality;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="181" end="196" startBytecode="0" endBytecode="75" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/Integer;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.Integer" start="52" end="1236" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="110" end="3049" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.lang.Integer" start="639" end="642" startBytecode="0" endBytecode="99" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.sql.ResultSet" name="getString" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.lang.String" start="1014" end="1032" startBytecode="0" endBytecode="215" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="ru.unirank.core.db.Database" start="189" end="189" startBytecode="101" endBytecode="101" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addDirection" signature="(Lru/unirank/core/model/Direction;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="135" end="149" startBytecode="0" endBytecode="367" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="136" end="136" startBytecode="13" endBytecode="13" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="137" end="137" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="138" end="138" startBytecode="25" endBytecode="25" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="140" end="140" startBytecode="47" endBytecode="47" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="141" end="141" startBytecode="50" endBytecode="50" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="142" end="142" startBytecode="59" endBytecode="59" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="144" end="144" startBytecode="92" endBytecode="92" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="146" end="146" startBytecode="141" endBytecode="141" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="147" end="147" startBytecode="150" endBytecode="150" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="149" end="149" startBytecode="151" endBytecode="151" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addDirection" signature="(Lru/unirank/core/model/Direction;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="135" end="149" startBytecode="0" endBytecode="367" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="135" end="135" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="136" end="136" startBytecode="10" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="137" end="137" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="138" end="138" startBytecode="25" endBytecode="25" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="147" end="147" startBytecode="150" endBytecode="150" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="149" end="149" startBytecode="151" endBytecode="151" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addFaculty" signature="(Lru/unirank/core/model/Faculty;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="66" end="87" startBytecode="0" endBytecode="391" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="67" end="67" startBytecode="13" endBytecode="13" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="68" end="68" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="69" end="69" startBytecode="25" endBytecode="25" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="73" end="73" startBytecode="47" endBytecode="47" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="74" end="74" startBytecode="56" endBytecode="56" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="79" end="79" startBytecode="84" endBytecode="84" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="83" end="83" startBytecode="155" endBytecode="155" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="86" end="86" startBytecode="161" endBytecode="161" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="87" end="87" startBytecode="169" endBytecode="169" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addFaculty" signature="(Lru/unirank/core/model/Faculty;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="66" end="87" startBytecode="0" endBytecode="391" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="66" end="66" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="67" end="67" startBytecode="10" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="68" end="68" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="69" end="69" startBytecode="25" endBytecode="25" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="84" end="84" startBytecode="164" endBytecode="164" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="85" end="85" startBytecode="165" endBytecode="165" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="87" end="87" startBytecode="169" endBytecode="169" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addRanking_method" signature="(Lru/unirank/core/model/RankingMethod;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="153" end="163" startBytecode="0" endBytecode="301" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="154" end="154" startBytecode="13" endBytecode="13" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="155" end="155" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="156" end="156" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="161" end="161" startBytecode="124" endBytecode="124" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="163" end="163" startBytecode="125" endBytecode="125" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addRanking_method" signature="(Lru/unirank/core/model/RankingMethod;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="153" end="163" startBytecode="0" endBytecode="301" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="153" end="153" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="154" end="154" startBytecode="10" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="155" end="155" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="156" end="156" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="161" end="161" startBytecode="124" endBytecode="124" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="163" end="163" startBytecode="125" endBytecode="125" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addRanking_raw_info_description" signature="(Lru/unirank/core/model/RankingRawInfoDescription;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="167" end="177" startBytecode="0" endBytecode="289" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="168" end="168" startBytecode="13" endBytecode="13" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="169" end="169" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="170" end="170" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="175" end="175" startBytecode="112" endBytecode="112" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="177" end="177" startBytecode="113" endBytecode="113" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addRanking_raw_info_description" signature="(Lru/unirank/core/model/RankingRawInfoDescription;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="167" end="177" startBytecode="0" endBytecode="289" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="167" end="167" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="168" end="168" startBytecode="10" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="169" end="169" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="170" end="170" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="175" end="175" startBytecode="112" endBytecode="112" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="177" end="177" startBytecode="113" endBytecode="113" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addRanking_raw_info_result" signature="(Lru/unirank/core/model/RankingRawInfoResult;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="119" end="130" startBytecode="0" endBytecode="289" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="120" end="120" startBytecode="13" endBytecode="13" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="121" end="121" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="122" end="122" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="128" end="128" startBytecode="116" endBytecode="116" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="130" end="130" startBytecode="117" endBytecode="117" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addRanking_raw_info_result" signature="(Lru/unirank/core/model/RankingRawInfoResult;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="119" end="130" startBytecode="0" endBytecode="289" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="119" end="119" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="120" end="120" startBytecode="10" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="121" end="121" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="122" end="122" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="128" end="128" startBytecode="116" endBytecode="116" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="130" end="130" startBytecode="117" endBytecode="117" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addRanking_result" signature="(Lru/unirank/core/model/RankingResult;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="92" end="115" startBytecode="0" endBytecode="392" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="93" end="93" startBytecode="13" endBytecode="13" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="94" end="94" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="95" end="95" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="96" end="96" startBytecode="25" endBytecode="25" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="101" end="101" startBytecode="47" endBytecode="47" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="102" end="102" startBytecode="56" endBytecode="56" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="107" end="107" startBytecode="84" endBytecode="84" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="111" end="111" startBytecode="152" endBytecode="152" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="114" end="114" startBytecode="158" endBytecode="158" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="115" end="115" startBytecode="166" endBytecode="166" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addRanking_result" signature="(Lru/unirank/core/model/RankingResult;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="92" end="115" startBytecode="0" endBytecode="392" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="92" end="92" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="93" end="93" startBytecode="10" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="94" end="94" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="95" end="95" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="96" end="96" startBytecode="25" endBytecode="25" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="112" end="112" startBytecode="161" endBytecode="161" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="113" end="113" startBytecode="162" endBytecode="162" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="115" end="115" startBytecode="166" endBytecode="166" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addSpeciality" signature="(Lru/unirank/core/model/Speciality;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="181" end="196" startBytecode="0" endBytecode="404" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="182" end="182" startBytecode="13" endBytecode="13" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="183" end="183" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="184" end="184" startBytecode="25" endBytecode="25" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="186" end="186" startBytecode="47" endBytecode="47" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="187" end="187" startBytecode="50" endBytecode="50" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="188" end="188" startBytecode="59" endBytecode="59" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="191" end="191" startBytecode="113" endBytecode="113" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="193" end="193" startBytecode="174" endBytecode="174" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="194" end="194" startBytecode="183" endBytecode="183" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="196" end="196" startBytecode="184" endBytecode="184" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addSpeciality" signature="(Lru/unirank/core/model/Speciality;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="181" end="196" startBytecode="0" endBytecode="404" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="181" end="181" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="182" end="182" startBytecode="10" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="183" end="183" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="184" end="184" startBytecode="25" endBytecode="25" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="194" end="194" startBytecode="183" endBytecode="183" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="196" end="196" startBytecode="184" endBytecode="184" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addSpeciality_faculty" signature="(Lru/unirank/core/model/SpecialityFaculty;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="201" end="211" startBytecode="0" endBytecode="270" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="202" end="202" startBytecode="13" endBytecode="13" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="203" end="203" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="204" end="204" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="209" end="209" startBytecode="97" endBytecode="97" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="211" end="211" startBytecode="98" endBytecode="98" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addSpeciality_faculty" signature="(Lru/unirank/core/model/SpecialityFaculty;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="201" end="211" startBytecode="0" endBytecode="270" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="201" end="201" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="202" end="202" startBytecode="10" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="203" end="203" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="204" end="204" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="209" end="209" startBytecode="97" endBytecode="97" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="211" end="211" startBytecode="98" endBytecode="98" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addUniversity" signature="(Lru/unirank/core/model/University;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="41" end="61" startBytecode="0" endBytecode="405" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="42" end="42" startBytecode="13" endBytecode="13" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="43" end="43" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="44" end="44" startBytecode="25" endBytecode="25" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="46" end="46" startBytecode="47" endBytecode="47" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="48" end="48" startBytecode="50" endBytecode="50" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="49" end="49" startBytecode="59" endBytecode="59" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="54" end="54" startBytecode="92" endBytecode="92" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="57" end="57" startBytecode="165" endBytecode="165" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="60" end="60" startBytecode="171" endBytecode="171" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="61" end="61" startBytecode="179" endBytecode="179" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addUniversity" signature="(Lru/unirank/core/model/University;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="41" end="61" startBytecode="0" endBytecode="405" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="41" end="41" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="42" end="42" startBytecode="10" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="43" end="43" startBytecode="19" endBytecode="19" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="44" end="44" startBytecode="25" endBytecode="25" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="58" end="58" startBytecode="174" endBytecode="174" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="59" end="59" startBytecode="175" endBytecode="175" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="61" end="61" startBytecode="179" endBytecode="179" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="performQuery" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="32" end="37" startBytecode="0" endBytecode="141" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="33" end="33" startBytecode="12" endBytecode="12" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="36" end="36" startBytecode="18" endBytecode="18" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="37" end="37" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="performQuery" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="32" end="37" startBytecode="0" endBytecode="141" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="32" end="32" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="33" end="33" startBytecode="10" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="36" end="36" startBytecode="18" endBytecode="18" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.core.db.Database" start="37" end="37" startBytecode="22" endBytecode="22" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" abbrev="ODR" category="BAD_PRACTICE">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="performQuery" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="32" end="37" startBytecode="0" endBytecode="10" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/Statement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Type>
+    <SourceLine classname="ru.unirank.core.db.Database" start="32" end="32" startBytecode="4" endBytecode="4" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" abbrev="SQL" category="SECURITY">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addDirection" signature="(Lru/unirank/core/model/Direction;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="135" end="149" startBytecode="0" endBytecode="62" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <SourceLine classname="ru.unirank.core.db.Database" start="145" end="145" startBytecode="135" endBytecode="135" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" abbrev="SQL" category="SECURITY">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addFaculty" signature="(Lru/unirank/core/model/Faculty;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="66" end="87" startBytecode="0" endBytecode="70" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <SourceLine classname="ru.unirank.core.db.Database" start="80" end="80" startBytecode="149" endBytecode="149" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" abbrev="SQL" category="SECURITY">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addRanking_method" signature="(Lru/unirank/core/model/RankingMethod;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="153" end="163" startBytecode="0" endBytecode="51" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <SourceLine classname="ru.unirank.core.db.Database" start="159" end="159" startBytecode="109" endBytecode="109" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" abbrev="SQL" category="SECURITY">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addRanking_raw_info_description" signature="(Lru/unirank/core/model/RankingRawInfoDescription;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="167" end="177" startBytecode="0" endBytecode="46" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <SourceLine classname="ru.unirank.core.db.Database" start="173" end="173" startBytecode="97" endBytecode="97" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" abbrev="SQL" category="SECURITY">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addSpeciality" signature="(Lru/unirank/core/model/Speciality;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="181" end="196" startBytecode="0" endBytecode="75" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <SourceLine classname="ru.unirank.core.db.Database" start="192" end="192" startBytecode="168" endBytecode="168" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" abbrev="SQL" category="SECURITY">
+    <Class classname="ru.unirank.core.db.Database">
+      <SourceLine classname="ru.unirank.core.db.Database" start="11" end="215" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Class>
+    <Method classname="ru.unirank.core.db.Database" name="addUniversity" signature="(Lru/unirank/core/model/University;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.core.db.Database" start="41" end="61" startBytecode="0" endBytecode="74" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+    </Method>
+    <SourceLine classname="ru.unirank.core.db.Database" start="55" end="55" startBytecode="159" endBytecode="159" sourcefile="Database.java" sourcepath="ru/unirank/core/db/Database.java"/>
+  </BugInstance>
+  <BugInstance type="NP_ALWAYS_NULL" priority="1" abbrev="NP" category="CORRECTNESS">
+    <Class classname="ru.unirank.frontend.models.UserQueryManager">
+      <SourceLine classname="ru.unirank.frontend.models.UserQueryManager" start="20" end="49" sourcefile="UserQueryManager.java" sourcepath="ru/unirank/frontend/models/UserQueryManager.java"/>
+    </Class>
+    <Method classname="ru.unirank.frontend.models.UserQueryManager" name="getSearchResult" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;" isStatic="false">
+      <SourceLine classname="ru.unirank.frontend.models.UserQueryManager" start="25" end="49" startBytecode="0" endBytecode="323" sourcefile="UserQueryManager.java" sourcepath="ru/unirank/frontend/models/UserQueryManager.java"/>
+    </Method>
+    <Field classname="java.lang.System" name="out" signature="Ljava/io/PrintStream;" isStatic="true" role="FIELD_VALUE_OF">
+      <SourceLine classname="java.lang.System" sourcefile="System.java" sourcepath="java/lang/System.java"/>
+    </Field>
+    <SourceLine classname="ru.unirank.frontend.models.UserQueryManager" start="37" end="37" startBytecode="50" endBytecode="50" sourcefile="UserQueryManager.java" sourcepath="ru/unirank/frontend/models/UserQueryManager.java" role="SOURCE_LINE_DEREF"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" abbrev="NP" category="CORRECTNESS">
+    <Class classname="ru.unirank.frontend.yalets.UserQueryYalet">
+      <SourceLine classname="ru.unirank.frontend.yalets.UserQueryYalet" start="19" end="60" sourcefile="UserQueryYalet.java" sourcepath="ru/unirank/frontend/yalets/UserQueryYalet.java"/>
+    </Class>
+    <Method classname="ru.unirank.frontend.yalets.UserQueryYalet" name="process" signature="(Lnet/sf/xfresh/core/InternalRequest;Lnet/sf/xfresh/core/InternalResponse;)V" isStatic="false">
+      <SourceLine classname="ru.unirank.frontend.yalets.UserQueryYalet" start="28" end="60" startBytecode="0" endBytecode="401" sourcefile="UserQueryYalet.java" sourcepath="ru/unirank/frontend/yalets/UserQueryYalet.java"/>
+    </Method>
+    <LocalVariable name="result" register="7" pc="51" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="ru.unirank.frontend.yalets.UserQueryYalet" start="47" end="47" startBytecode="73" endBytecode="73" sourcefile="UserQueryYalet.java" sourcepath="ru/unirank/frontend/yalets/UserQueryYalet.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="ru.unirank.frontend.yalets.UserQueryYalet" start="41" end="41" startBytecode="58" endBytecode="58" sourcefile="UserQueryYalet.java" sourcepath="ru/unirank/frontend/yalets/UserQueryYalet.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <SourceLine classname="ru.unirank.frontend.yalets.UserQueryYalet" start="43" end="43" startBytecode="68" endBytecode="68" sourcefile="UserQueryYalet.java" sourcepath="ru/unirank/frontend/yalets/UserQueryYalet.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="NP_ALWAYS_NULL" priority="1" abbrev="NP" category="CORRECTNESS">
+    <Class classname="ru.unirank.grabber.TopCoderWrapper">
+      <SourceLine classname="ru.unirank.grabber.TopCoderWrapper" start="10" end="42" sourcefile="TopCoderWrapper.java" sourcepath="ru/unirank/grabber/TopCoderWrapper.java"/>
+    </Class>
+    <Method classname="ru.unirank.grabber.TopCoderWrapper" name="downloadOneLink" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="ru.unirank.grabber.TopCoderWrapper" start="16" end="28" startBytecode="0" endBytecode="322" sourcefile="TopCoderWrapper.java" sourcepath="ru/unirank/grabber/TopCoderWrapper.java"/>
+    </Method>
+    <Field classname="java.lang.System" name="out" signature="Ljava/io/PrintStream;" isStatic="true" role="FIELD_VALUE_OF">
+      <SourceLine classname="java.lang.System" sourcefile="System.java" sourcepath="java/lang/System.java"/>
+    </Field>
+    <SourceLine classname="ru.unirank.grabber.TopCoderWrapper" start="16" end="16" startBytecode="31" endBytecode="31" sourcefile="TopCoderWrapper.java" sourcepath="ru/unirank/grabber/TopCoderWrapper.java" role="SOURCE_LINE_DEREF"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.grabber.TopCoderWrapper">
+      <SourceLine classname="ru.unirank.grabber.TopCoderWrapper" start="10" end="42" sourcefile="TopCoderWrapper.java" sourcepath="ru/unirank/grabber/TopCoderWrapper.java"/>
+    </Class>
+    <Method classname="ru.unirank.grabber.TopCoderWrapper" name="downloadOneLink" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="ru.unirank.grabber.TopCoderWrapper" start="16" end="28" startBytecode="0" endBytecode="322" sourcefile="TopCoderWrapper.java" sourcepath="ru/unirank/grabber/TopCoderWrapper.java"/>
+    </Method>
+    <Class classname="java.io.Writer" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.Writer" start="50" end="294" sourcefile="Writer.java" sourcepath="java/io/Writer.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.grabber.TopCoderWrapper" start="20" end="20" startBytecode="95" endBytecode="95" sourcefile="TopCoderWrapper.java" sourcepath="ru/unirank/grabber/TopCoderWrapper.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.grabber.TopCoderWrapper" start="21" end="21" startBytecode="100" endBytecode="100" sourcefile="TopCoderWrapper.java" sourcepath="ru/unirank/grabber/TopCoderWrapper.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Writer x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" abbrev="Dm" category="BAD_PRACTICE">
+    <Class classname="ru.unirank.indexer.Indexer">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="39" end="122" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Class>
+    <Method classname="ru.unirank.indexer.Indexer" name="index" signature="()I" isStatic="false">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="63" end="80" startBytecode="0" endBytecode="278" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Method>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="66" end="66" startBytecode="53" endBytecode="53" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.indexer.Indexer">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="39" end="122" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Class>
+    <Method classname="ru.unirank.indexer.Indexer" name="getDocument" signature="(Ljava/sql/ResultSet;)Lorg/apache/lucene/document/Document;" isStatic="false">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="84" end="122" startBytecode="0" endBytecode="766" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="95" end="95" startBytecode="183" endBytecode="183" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="96" end="96" startBytecode="190" endBytecode="190" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.indexer.Indexer">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="39" end="122" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Class>
+    <Method classname="ru.unirank.indexer.Indexer" name="getDocument" signature="(Ljava/sql/ResultSet;)Lorg/apache/lucene/document/Document;" isStatic="false">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="84" end="122" startBytecode="0" endBytecode="766" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="94" end="94" startBytecode="174" endBytecode="174" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="95" end="95" startBytecode="180" endBytecode="180" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="96" end="96" startBytecode="190" endBytecode="190" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.indexer.Indexer">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="39" end="122" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Class>
+    <Method classname="ru.unirank.indexer.Indexer" name="index" signature="()I" isStatic="false">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="63" end="80" startBytecode="0" endBytecode="278" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="70" end="70" startBytecode="71" endBytecode="71" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="73" end="73" startBytecode="77" endBytecode="77" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" abbrev="OBL" category="EXPERIMENTAL">
+    <Class classname="ru.unirank.indexer.Indexer">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="39" end="122" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Class>
+    <Method classname="ru.unirank.indexer.Indexer" name="index" signature="()I" isStatic="false">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="63" end="80" startBytecode="0" endBytecode="278" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="68" end="68" startBytecode="60" endBytecode="60" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="69" end="69" startBytecode="66" endBytecode="66" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="70" end="70" startBytecode="69" endBytecode="69" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="73" end="73" startBytecode="77" endBytecode="77" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" abbrev="ODR" category="BAD_PRACTICE">
+    <Class classname="ru.unirank.indexer.Indexer">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="39" end="122" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Class>
+    <Method classname="ru.unirank.indexer.Indexer" name="getDocument" signature="(Ljava/sql/ResultSet;)Lorg/apache/lucene/document/Document;" isStatic="false">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="84" end="122" startBytecode="0" endBytecode="207" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/Statement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Type>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="94" end="94" startBytecode="174" endBytecode="174" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="ru.unirank.indexer.Indexer">
+      <SourceLine classname="ru.unirank.indexer.Indexer" start="39" end="122" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Class>
+    <Field classname="ru.unirank.indexer.Indexer" name="tableName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="ru.unirank.indexer.Indexer" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+    </Field>
+    <SourceLine classname="ru.unirank.indexer.Indexer" start="50" end="50" startBytecode="84" endBytecode="84" sourcefile="Indexer.java" sourcepath="ru/unirank/indexer/Indexer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_ALWAYS_NULL" priority="1" abbrev="NP" category="CORRECTNESS">
+    <Class classname="ru.unirank.seacher.Searcher">
+      <SourceLine classname="ru.unirank.seacher.Searcher" start="25" end="93" sourcefile="Searcher.java" sourcepath="ru/unirank/seacher/Searcher.java"/>
+    </Class>
+    <Method classname="ru.unirank.seacher.Searcher" name="search" signature="(Ljava/lang/String;Lru/unirank/seacher/UserQuery;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="ru.unirank.seacher.Searcher" start="42" end="93" startBytecode="0" endBytecode="607" sourcefile="Searcher.java" sourcepath="ru/unirank/seacher/Searcher.java"/>
+    </Method>
+    <Field classname="java.lang.System" name="out" signature="Ljava/io/PrintStream;" isStatic="true" role="FIELD_VALUE_OF">
+      <SourceLine classname="java.lang.System" sourcefile="System.java" sourcepath="java/lang/System.java"/>
+    </Field>
+    <SourceLine classname="ru.unirank.seacher.Searcher" start="47" end="47" startBytecode="26" endBytecode="26" sourcefile="Searcher.java" sourcepath="ru/unirank/seacher/Searcher.java" role="SOURCE_LINE_DEREF"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="ru.unirank.seacher.UserQuery">
+      <SourceLine classname="ru.unirank.seacher.UserQuery" start="60" end="141" sourcefile="UserQuery.java" sourcepath="ru/unirank/seacher/UserQuery.java"/>
+    </Class>
+    <Field classname="ru.unirank.seacher.UserQuery" name="id" signature="I" isStatic="false">
+      <SourceLine classname="ru.unirank.seacher.UserQuery" sourcefile="UserQuery.java" sourcepath="ru/unirank/seacher/UserQuery.java"/>
+    </Field>
+    <SourceLine classname="ru.unirank.seacher.UserQuery" start="61" end="61" startBytecode="6" endBytecode="6" sourcefile="UserQuery.java" sourcepath="ru/unirank/seacher/UserQuery.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="ru.unirank.seacher.UserQuery">
+      <SourceLine classname="ru.unirank.seacher.UserQuery" start="60" end="141" sourcefile="UserQuery.java" sourcepath="ru/unirank/seacher/UserQuery.java"/>
+    </Class>
+    <Field classname="ru.unirank.seacher.UserQuery" name="universityId" signature="I" isStatic="false">
+      <SourceLine classname="ru.unirank.seacher.UserQuery" sourcefile="UserQuery.java" sourcepath="ru/unirank/seacher/UserQuery.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="NP_ALWAYS_NULL" priority="1" abbrev="NP" category="CORRECTNESS">
+    <Class classname="ru.unirank.searcher.Searcher">
+      <SourceLine classname="ru.unirank.searcher.Searcher" start="25" end="93" sourcefile="Searcher.java" sourcepath="ru/unirank/searcher/Searcher.java"/>
+    </Class>
+    <Method classname="ru.unirank.searcher.Searcher" name="search" signature="(Ljava/lang/String;Lru/unirank/searcher/UserQuery;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="ru.unirank.searcher.Searcher" start="42" end="93" startBytecode="0" endBytecode="607" sourcefile="Searcher.java" sourcepath="ru/unirank/searcher/Searcher.java"/>
+    </Method>
+    <Field classname="java.lang.System" name="out" signature="Ljava/io/PrintStream;" isStatic="true" role="FIELD_VALUE_OF">
+      <SourceLine classname="java.lang.System" sourcefile="System.java" sourcepath="java/lang/System.java"/>
+    </Field>
+    <SourceLine classname="ru.unirank.searcher.Searcher" start="47" end="47" startBytecode="26" endBytecode="26" sourcefile="Searcher.java" sourcepath="ru/unirank/searcher/Searcher.java" role="SOURCE_LINE_DEREF"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="ru.unirank.searcher.UserQuery">
+      <SourceLine classname="ru.unirank.searcher.UserQuery" start="60" end="141" sourcefile="UserQuery.java" sourcepath="ru/unirank/searcher/UserQuery.java"/>
+    </Class>
+    <Field classname="ru.unirank.searcher.UserQuery" name="id" signature="I" isStatic="false">
+      <SourceLine classname="ru.unirank.searcher.UserQuery" sourcefile="UserQuery.java" sourcepath="ru/unirank/searcher/UserQuery.java"/>
+    </Field>
+    <SourceLine classname="ru.unirank.searcher.UserQuery" start="61" end="61" startBytecode="6" endBytecode="6" sourcefile="UserQuery.java" sourcepath="ru/unirank/searcher/UserQuery.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="ru.unirank.searcher.UserQuery">
+      <SourceLine classname="ru.unirank.searcher.UserQuery" start="60" end="141" sourcefile="UserQuery.java" sourcepath="ru/unirank/searcher/UserQuery.java"/>
+    </Class>
+    <Field classname="ru.unirank.searcher.UserQuery" name="universityId" signature="I" isStatic="false">
+      <SourceLine classname="ru.unirank.searcher.UserQuery" sourcefile="UserQuery.java" sourcepath="ru/unirank/searcher/UserQuery.java"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 21 Nov 2011 11:32:36 +0300" total_classes="86" referenced_classes="328" total_bugs="51" total_size="2329" num_packages="20" vm_version="21.0-b17" cpu_seconds="45.87" clock_seconds="26.61" peak_mbytes="218.13" alloc_mbytes="446.25" gc_seconds="1.42" priority_2="38" priority_1="13">
+    <PackageStats package="net.sf.xfresh.base" total_bugs="0" total_types="2" total_size="14">
+      <ClassStats class="net.sf.xfresh.base.Request" sourceFile="Request.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.base.RequestYalet" sourceFile="RequestYalet.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="net.sf.xfresh.core" total_bugs="0" total_types="18" total_size="231">
+      <ClassStats class="net.sf.xfresh.core.ErrorInfo" sourceFile="ErrorInfo.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.InternalRequest" sourceFile="InternalRequest.java" interface="true" size="20" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.InternalResponse" sourceFile="InternalResponse.java" interface="true" size="24" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.RedirHandler" sourceFile="RedirHandler.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.SaxGenerator" sourceFile="SaxGenerator.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.SaxHandler" sourceFile="SaxHandler.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.SaxWriter" sourceFile="SaxWriter.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.SelfSaxWriter" sourceFile="SelfSaxWriter.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.SelfWriter" sourceFile="SelfWriter.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.SingleYaletProcessor" sourceFile="SingleYaletProcessor.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.Yalet" sourceFile="Yalet.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.YaletFilter" sourceFile="YaletFilter.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.YaletProcessor" sourceFile="YaletProcessor.java" interface="false" size="88" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.YaletProcessor$1" sourceFile="YaletProcessor.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.YaletProcessor$MyXMLSerializer" sourceFile="YaletProcessor.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.YaletResolver" sourceFile="YaletResolver.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.YaletResolvingException" sourceFile="YaletResolvingException.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.YaletSupport" sourceFile="YaletSupport.java" interface="true" size="4" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="net.sf.xfresh.core.impl" total_bugs="0" total_types="5" total_size="275">
+      <ClassStats class="net.sf.xfresh.core.impl.DefaultSingleYaletProcessor" sourceFile="DefaultSingleYaletProcessor.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.impl.DefaultYaletSupport" sourceFile="DefaultYaletSupport.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.impl.SimpleInternalRequest" sourceFile="SimpleInternalRequest.java" interface="false" size="99" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.impl.SimpleInternalResponse" sourceFile="SimpleInternalResponse.java" interface="false" size="94" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.impl.SimpleInternalResponse$1" sourceFile="SimpleInternalResponse.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="net.sf.xfresh.core.sax" total_bugs="0" total_types="5" total_size="170">
+      <ClassStats class="net.sf.xfresh.core.sax.DefaultSaxGenerator" sourceFile="DefaultSaxGenerator.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.sax.DefaultSaxHandler" sourceFile="DefaultSaxHandler.java" interface="false" size="128" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.sax.DefaultSaxHandler$1" sourceFile="DefaultSaxHandler.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.sax.DefaultSaxHandler$ValueInfo" sourceFile="DefaultSaxHandler.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.sax.MapSelfSaxWriter" sourceFile="MapSelfSaxWriter.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="net.sf.xfresh.core.servlet" total_bugs="1" total_types="1" total_size="24" priority_2="1">
+      <ClassStats class="net.sf.xfresh.core.servlet.Dispatcher" sourceFile="Dispatcher.java" interface="false" size="24" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="net.sf.xfresh.core.spring" total_bugs="0" total_types="1" total_size="20">
+      <ClassStats class="net.sf.xfresh.core.spring.SpringYaletResolver" sourceFile="SpringYaletResolver.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="net.sf.xfresh.core.xml" total_bugs="1" total_types="14" total_size="193" priority_2="1">
+      <ClassStats class="net.sf.xfresh.core.xml.SaxAttributable" sourceFile="SaxAttributable.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Tagable" sourceFile="Tagable.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler" sourceFile="Xmler.java" interface="false" size="100" bugs="1" priority_2="1"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$1" sourceFile="Xmler.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$2" sourceFile="Xmler.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$3" sourceFile="Xmler.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$4" sourceFile="Xmler.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$5" sourceFile="Xmler.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$6" sourceFile="Xmler.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$7" sourceFile="Xmler.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$8" sourceFile="Xmler.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$Attribute" sourceFile="Xmler.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$Attribute$1" sourceFile="Xmler.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.core.xml.Xmler$Tag" sourceFile="Xmler.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="net.sf.xfresh.ext" total_bugs="0" total_types="8" total_size="380">
+      <ClassStats class="net.sf.xfresh.ext.AuthHandler" sourceFile="AuthHandler.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.ext.ContentWriter" sourceFile="ContentWriter.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.ext.ContentWriter$1" sourceFile="ContentWriter.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.ext.ExtYaletFilter" sourceFile="ExtYaletFilter.java" interface="false" size="203" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.ext.ExtYaletSupport" sourceFile="ExtYaletSupport.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.ext.HttpLoader" sourceFile="HttpLoader.java" interface="false" size="62" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.ext.HttpMethodResult" sourceFile="HttpMethodResult.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.ext.LoadedXml" sourceFile="LoadedXml.java" interface="false" size="41" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="net.sf.xfresh.ext.auth" total_bugs="0" total_types="3" total_size="68">
+      <ClassStats class="net.sf.xfresh.ext.auth.AlwaysNoAuthHandler" sourceFile="AlwaysNoAuthHandler.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.ext.auth.SimpleHttpAuthHandler" sourceFile="SimpleHttpAuthHandler.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.ext.auth.SimpleParamAuthHandler" sourceFile="SimpleParamAuthHandler.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="net.sf.xfresh.jetty" total_bugs="1" total_types="3" total_size="114" priority_2="1">
+      <ClassStats class="net.sf.xfresh.jetty.JettyServerInitializer" sourceFile="JettyServerInitializer.java" interface="false" size="42" bugs="1" priority_2="1"/>
+      <ClassStats class="net.sf.xfresh.jetty.SingleYaletHandler" sourceFile="SingleYaletHandler.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.jetty.YaletXmlPageHandler" sourceFile="YaletXmlPageHandler.java" interface="false" size="26" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="net.sf.xfresh.util" total_bugs="1" total_types="3" total_size="88" priority_1="1">
+      <ClassStats class="net.sf.xfresh.util.DigestUtils" sourceFile="DigestUtils.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="net.sf.xfresh.util.Starter" sourceFile="Starter.java" interface="false" size="10" bugs="1" priority_1="1"/>
+      <ClassStats class="net.sf.xfresh.util.XmlUtil" sourceFile="XmlUtil.java" interface="false" size="38" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ru.unirank.core.db" total_bugs="30" total_types="1" total_size="158" priority_2="22" priority_1="8">
+      <ClassStats class="ru.unirank.core.db.Database" sourceFile="Database.java" interface="false" size="158" bugs="30" priority_2="22" priority_1="8"/>
+    </PackageStats>
+    <PackageStats package="ru.unirank.core.model" total_bugs="0" total_types="9" total_size="119">
+      <ClassStats class="ru.unirank.core.model.Direction" sourceFile="Direction.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="ru.unirank.core.model.Faculty" sourceFile="Faculty.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="ru.unirank.core.model.RankingMethod" sourceFile="RankingMethod.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="ru.unirank.core.model.RankingRawInfoDescription" sourceFile="RankingRawInfoDescription.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="ru.unirank.core.model.RankingRawInfoResult" sourceFile="RankingRawInfoResult.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="ru.unirank.core.model.RankingResult" sourceFile="RankingResult.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="ru.unirank.core.model.Speciality" sourceFile="Speciality.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="ru.unirank.core.model.SpecialityFaculty" sourceFile="SpecialityFaculty.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="ru.unirank.core.model.University" sourceFile="University.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ru.unirank.core.utils" total_bugs="0" total_types="3" total_size="78">
+      <ClassStats class="ru.unirank.core.utils.DBResponse" sourceFile="DBResponse.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="ru.unirank.core.utils.FacultyDescription" sourceFile="FacultyDescription.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="ru.unirank.core.utils.UnivDescription" sourceFile="UnivDescription.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ru.unirank.frontend.models" total_bugs="1" total_types="1" total_size="16" priority_1="1">
+      <ClassStats class="ru.unirank.frontend.models.UserQueryManager" sourceFile="UserQueryManager.java" interface="false" size="16" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="ru.unirank.frontend.yalets" total_bugs="1" total_types="1" total_size="25" priority_2="1">
+      <ClassStats class="ru.unirank.frontend.yalets.UserQueryYalet" sourceFile="UserQueryYalet.java" interface="false" size="25" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="ru.unirank.grabber" total_bugs="2" total_types="3" total_size="102" priority_2="1" priority_1="1">
+      <ClassStats class="ru.unirank.grabber.Main" sourceFile="Main.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="ru.unirank.grabber.TopCoderListener" sourceFile="TopCoderListener.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="ru.unirank.grabber.TopCoderWrapper" sourceFile="TopCoderWrapper.java" interface="false" size="28" bugs="2" priority_2="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="ru.unirank.indexer" total_bugs="7" total_types="1" total_size="66" priority_2="7">
+      <ClassStats class="ru.unirank.indexer.Indexer" sourceFile="Indexer.java" interface="false" size="66" bugs="7" priority_2="7"/>
+    </PackageStats>
+    <PackageStats package="ru.unirank.seacher" total_bugs="3" total_types="2" total_size="94" priority_2="2" priority_1="1">
+      <ClassStats class="ru.unirank.seacher.Searcher" sourceFile="Searcher.java" interface="false" size="25" bugs="1" priority_1="1"/>
+      <ClassStats class="ru.unirank.seacher.UserQuery" sourceFile="UserQuery.java" interface="false" size="69" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="ru.unirank.searcher" total_bugs="3" total_types="2" total_size="94" priority_2="2" priority_1="1">
+      <ClassStats class="ru.unirank.searcher.Searcher" sourceFile="Searcher.java" interface="false" size="25" bugs="1" priority_1="1"/>
+      <ClassStats class="ru.unirank.searcher.UserQuery" sourceFile="UserQuery.java" interface="false" size="69" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindTwoLockWait" totalMilliseconds="11" invocations="86" avgMicrosecondsPerInvocation="128" maxMicrosecondsPerInvocation="6577" standardDeviationMircosecondsPerInvocation="701"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSpinLoop" totalMilliseconds="11" invocations="86" avgMicrosecondsPerInvocation="131" maxMicrosecondsPerInvocation="5570" standardDeviationMircosecondsPerInvocation="596"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BooleanReturnNull" totalMilliseconds="12" invocations="86" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="4867" standardDeviationMircosecondsPerInvocation="587"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSleepWithLockHeld" totalMilliseconds="12" invocations="86" avgMicrosecondsPerInvocation="142" maxMicrosecondsPerInvocation="10115" standardDeviationMircosecondsPerInvocation="1084"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.NonExceptionPostdominatorsAnalysisFactory" totalMilliseconds="12" invocations="1" avgMicrosecondsPerInvocation="12569" maxMicrosecondsPerInvocation="12569" standardDeviationMircosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EmptyZipFileEntry" totalMilliseconds="13" invocations="86" avgMicrosecondsPerInvocation="153" maxMicrosecondsPerInvocation="4730" standardDeviationMircosecondsPerInvocation="575"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InheritanceUnsafeGetResource" totalMilliseconds="13" invocations="86" avgMicrosecondsPerInvocation="162" maxMicrosecondsPerInvocation="5768" standardDeviationMircosecondsPerInvocation="709"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.VolatileUsage" totalMilliseconds="14" invocations="86" avgMicrosecondsPerInvocation="166" maxMicrosecondsPerInvocation="10372" standardDeviationMircosecondsPerInvocation="1108"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.WaitInLoop" totalMilliseconds="14" invocations="86" avgMicrosecondsPerInvocation="167" maxMicrosecondsPerInvocation="5253" standardDeviationMircosecondsPerInvocation="668"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ReturnPathTypeDataflowFactory" totalMilliseconds="14" invocations="5" avgMicrosecondsPerInvocation="2899" maxMicrosecondsPerInvocation="8005" standardDeviationMircosecondsPerInvocation="2950"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBugsSummaryStats" totalMilliseconds="14" invocations="328" avgMicrosecondsPerInvocation="44" maxMicrosecondsPerInvocation="2877" standardDeviationMircosecondsPerInvocation="166"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUncalledPrivateMethods" totalMilliseconds="15" invocations="86" avgMicrosecondsPerInvocation="179" maxMicrosecondsPerInvocation="3013" standardDeviationMircosecondsPerInvocation="340"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNonSerializableStoreIntoSession" totalMilliseconds="15" invocations="86" avgMicrosecondsPerInvocation="183" maxMicrosecondsPerInvocation="6558" standardDeviationMircosecondsPerInvocation="704"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessControlFlow" totalMilliseconds="15" invocations="86" avgMicrosecondsPerInvocation="183" maxMicrosecondsPerInvocation="5488" standardDeviationMircosecondsPerInvocation="677"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SynchronizeOnClassLiteralNotGetClass" totalMilliseconds="16" invocations="86" avgMicrosecondsPerInvocation="187" maxMicrosecondsPerInvocation="4566" standardDeviationMircosecondsPerInvocation="522"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CloneIdiom" totalMilliseconds="16" invocations="86" avgMicrosecondsPerInvocation="195" maxMicrosecondsPerInvocation="6504" standardDeviationMircosecondsPerInvocation="958"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ClassContextClassAnalysisEngine" totalMilliseconds="17" invocations="605" avgMicrosecondsPerInvocation="28" maxMicrosecondsPerInvocation="3454" standardDeviationMircosecondsPerInvocation="182"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUnsyncGet" totalMilliseconds="17" invocations="86" avgMicrosecondsPerInvocation="204" maxMicrosecondsPerInvocation="10338" standardDeviationMircosecondsPerInvocation="1101"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSelfComparison2" totalMilliseconds="17" invocations="86" avgMicrosecondsPerInvocation="205" maxMicrosecondsPerInvocation="4248" standardDeviationMircosecondsPerInvocation="501"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LostLoggerDueToWeakReference" totalMilliseconds="18" invocations="86" avgMicrosecondsPerInvocation="217" maxMicrosecondsPerInvocation="1411" standardDeviationMircosecondsPerInvocation="320"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BadResultSetAccess" totalMilliseconds="18" invocations="86" avgMicrosecondsPerInvocation="218" maxMicrosecondsPerInvocation="2533" standardDeviationMircosecondsPerInvocation="352"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation" totalMilliseconds="19" invocations="86" avgMicrosecondsPerInvocation="222" maxMicrosecondsPerInvocation="5931" standardDeviationMircosecondsPerInvocation="657"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadForLoop" totalMilliseconds="20" invocations="86" avgMicrosecondsPerInvocation="234" maxMicrosecondsPerInvocation="4060" standardDeviationMircosecondsPerInvocation="488"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StringConcatenation" totalMilliseconds="20" invocations="86" avgMicrosecondsPerInvocation="239" maxMicrosecondsPerInvocation="10547" standardDeviationMircosecondsPerInvocation="1193"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindFloatEquality" totalMilliseconds="21" invocations="86" avgMicrosecondsPerInvocation="245" maxMicrosecondsPerInvocation="4676" standardDeviationMircosecondsPerInvocation="577"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UsagesRequiringNonNullValuesFactory" totalMilliseconds="21" invocations="1" avgMicrosecondsPerInvocation="21192" maxMicrosecondsPerInvocation="21192" standardDeviationMircosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNonSerializableValuePassedToWriteObject" totalMilliseconds="21" invocations="86" avgMicrosecondsPerInvocation="250" maxMicrosecondsPerInvocation="5568" standardDeviationMircosecondsPerInvocation="804"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.AppendingToAnObjectOutputStream" totalMilliseconds="21" invocations="86" avgMicrosecondsPerInvocation="251" maxMicrosecondsPerInvocation="3866" standardDeviationMircosecondsPerInvocation="589"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindMaskedFields" totalMilliseconds="22" invocations="86" avgMicrosecondsPerInvocation="261" maxMicrosecondsPerInvocation="12573" standardDeviationMircosecondsPerInvocation="1447"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNakedNotify" totalMilliseconds="22" invocations="86" avgMicrosecondsPerInvocation="267" maxMicrosecondsPerInvocation="10275" standardDeviationMircosecondsPerInvocation="1269"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="23" invocations="87" avgMicrosecondsPerInvocation="269" maxMicrosecondsPerInvocation="6308" standardDeviationMircosecondsPerInvocation="840"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LoadedFieldSetFactory" totalMilliseconds="23" invocations="392" avgMicrosecondsPerInvocation="59" maxMicrosecondsPerInvocation="5364" standardDeviationMircosecondsPerInvocation="384"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NumberConstructor" totalMilliseconds="23" invocations="86" avgMicrosecondsPerInvocation="275" maxMicrosecondsPerInvocation="8290" standardDeviationMircosecondsPerInvocation="915"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RepeatedConditionals" totalMilliseconds="23" invocations="86" avgMicrosecondsPerInvocation="277" maxMicrosecondsPerInvocation="2262" standardDeviationMircosecondsPerInvocation="428"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass" totalMilliseconds="25" invocations="86" avgMicrosecondsPerInvocation="296" maxMicrosecondsPerInvocation="11216" standardDeviationMircosecondsPerInvocation="1209"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNonShortCircuit" totalMilliseconds="25" invocations="86" avgMicrosecondsPerInvocation="297" maxMicrosecondsPerInvocation="4384" standardDeviationMircosecondsPerInvocation="664"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindReturnRef" totalMilliseconds="25" invocations="86" avgMicrosecondsPerInvocation="301" maxMicrosecondsPerInvocation="6647" standardDeviationMircosecondsPerInvocation="923"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteUnconditionalParamDerefs" totalMilliseconds="26" invocations="86" avgMicrosecondsPerInvocation="303" maxMicrosecondsPerInvocation="7064" standardDeviationMircosecondsPerInvocation="801"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="26" invocations="86" avgMicrosecondsPerInvocation="306" maxMicrosecondsPerInvocation="9853" standardDeviationMircosecondsPerInvocation="1225"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SynchronizationOnSharedBuiltinConstant" totalMilliseconds="26" invocations="86" avgMicrosecondsPerInvocation="307" maxMicrosecondsPerInvocation="6038" standardDeviationMircosecondsPerInvocation="858"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.Naming" totalMilliseconds="26" invocations="86" avgMicrosecondsPerInvocation="311" maxMicrosecondsPerInvocation="5213" standardDeviationMircosecondsPerInvocation="635"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteNonNullAnnotations" totalMilliseconds="26" invocations="328" avgMicrosecondsPerInvocation="82" maxMicrosecondsPerInvocation="5604" standardDeviationMircosecondsPerInvocation="333"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CrossSiteScripting" totalMilliseconds="27" invocations="86" avgMicrosecondsPerInvocation="314" maxMicrosecondsPerInvocation="9221" standardDeviationMircosecondsPerInvocation="1034"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindFieldSelfAssignment" totalMilliseconds="28" invocations="86" avgMicrosecondsPerInvocation="327" maxMicrosecondsPerInvocation="5993" standardDeviationMircosecondsPerInvocation="938"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteCheckReturnValue" totalMilliseconds="28" invocations="328" avgMicrosecondsPerInvocation="86" maxMicrosecondsPerInvocation="5243" standardDeviationMircosecondsPerInvocation="355"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="28" invocations="86" avgMicrosecondsPerInvocation="330" maxMicrosecondsPerInvocation="6645" standardDeviationMircosecondsPerInvocation="756"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteAnnotationRetention" totalMilliseconds="29" invocations="328" avgMicrosecondsPerInvocation="88" maxMicrosecondsPerInvocation="3396" standardDeviationMircosecondsPerInvocation="322"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ObligationDataflowFactory" totalMilliseconds="29" invocations="123" avgMicrosecondsPerInvocation="241" maxMicrosecondsPerInvocation="19181" standardDeviationMircosecondsPerInvocation="1715"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SynchronizingOnContentsOfFieldToProtectField" totalMilliseconds="30" invocations="86" avgMicrosecondsPerInvocation="356" maxMicrosecondsPerInvocation="6080" standardDeviationMircosecondsPerInvocation="950"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodFactory" totalMilliseconds="31" invocations="333" avgMicrosecondsPerInvocation="95" maxMicrosecondsPerInvocation="4560" standardDeviationMircosecondsPerInvocation="363"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer" totalMilliseconds="32" invocations="86" avgMicrosecondsPerInvocation="372" maxMicrosecondsPerInvocation="8046" standardDeviationMircosecondsPerInvocation="1029"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteJCIPAnnotation" totalMilliseconds="32" invocations="328" avgMicrosecondsPerInvocation="99" maxMicrosecondsPerInvocation="5186" standardDeviationMircosecondsPerInvocation="403"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DuplicateBranches" totalMilliseconds="36" invocations="86" avgMicrosecondsPerInvocation="423" maxMicrosecondsPerInvocation="11195" standardDeviationMircosecondsPerInvocation="1699"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantPoolGenFactory" totalMilliseconds="37" invocations="86" avgMicrosecondsPerInvocation="430" maxMicrosecondsPerInvocation="24962" standardDeviationMircosecondsPerInvocation="2663"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ReverseDepthFirstSearchFactory" totalMilliseconds="37" invocations="392" avgMicrosecondsPerInvocation="96" maxMicrosecondsPerInvocation="5315" standardDeviationMircosecondsPerInvocation="406"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteLoop" totalMilliseconds="38" invocations="86" avgMicrosecondsPerInvocation="445" maxMicrosecondsPerInvocation="10902" standardDeviationMircosecondsPerInvocation="1436"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethodInvocations" totalMilliseconds="38" invocations="86" avgMicrosecondsPerInvocation="446" maxMicrosecondsPerInvocation="8696" standardDeviationMircosecondsPerInvocation="1253"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.Methods" totalMilliseconds="40" invocations="328" avgMicrosecondsPerInvocation="123" maxMicrosecondsPerInvocation="5307" standardDeviationMircosecondsPerInvocation="592"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BadSyntaxForRegularExpression" totalMilliseconds="43" invocations="86" avgMicrosecondsPerInvocation="501" maxMicrosecondsPerInvocation="20448" standardDeviationMircosecondsPerInvocation="2292"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.MethodReturnCheck" totalMilliseconds="43" invocations="86" avgMicrosecondsPerInvocation="503" maxMicrosecondsPerInvocation="10906" standardDeviationMircosecondsPerInvocation="1406"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations" totalMilliseconds="43" invocations="328" avgMicrosecondsPerInvocation="132" maxMicrosecondsPerInvocation="10296" standardDeviationMircosecondsPerInvocation="797"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine" totalMilliseconds="44" invocations="1322" avgMicrosecondsPerInvocation="33" maxMicrosecondsPerInvocation="10789" standardDeviationMircosecondsPerInvocation="397"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SwitchFallthrough" totalMilliseconds="44" invocations="86" avgMicrosecondsPerInvocation="518" maxMicrosecondsPerInvocation="10911" standardDeviationMircosecondsPerInvocation="1273"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="46" invocations="86" avgMicrosecondsPerInvocation="537" maxMicrosecondsPerInvocation="6809" standardDeviationMircosecondsPerInvocation="1142"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.DepthFirstSearchFactory" totalMilliseconds="47" invocations="494" avgMicrosecondsPerInvocation="95" maxMicrosecondsPerInvocation="10188" standardDeviationMircosecondsPerInvocation="646"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSqlInjection" totalMilliseconds="49" invocations="86" avgMicrosecondsPerInvocation="578" maxMicrosecondsPerInvocation="14739" standardDeviationMircosecondsPerInvocation="1693"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteSuppressedWarnings" totalMilliseconds="50" invocations="328" avgMicrosecondsPerInvocation="152" maxMicrosecondsPerInvocation="10620" standardDeviationMircosecondsPerInvocation="747"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="60" invocations="86" avgMicrosecondsPerInvocation="704" maxMicrosecondsPerInvocation="10947" standardDeviationMircosecondsPerInvocation="1539"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="66" invocations="86" avgMicrosecondsPerInvocation="768" maxMicrosecondsPerInvocation="12130" standardDeviationMircosecondsPerInvocation="1710"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="71" invocations="86" avgMicrosecondsPerInvocation="831" maxMicrosecondsPerInvocation="18662" standardDeviationMircosecondsPerInvocation="2550"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FormatStringChecker" totalMilliseconds="80" invocations="86" avgMicrosecondsPerInvocation="940" maxMicrosecondsPerInvocation="60087" standardDeviationMircosecondsPerInvocation="6434"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="82" invocations="86" avgMicrosecondsPerInvocation="955" maxMicrosecondsPerInvocation="17672" standardDeviationMircosecondsPerInvocation="2290"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="82" invocations="86" avgMicrosecondsPerInvocation="964" maxMicrosecondsPerInvocation="10839" standardDeviationMircosecondsPerInvocation="2100"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation" totalMilliseconds="99" invocations="86" avgMicrosecondsPerInvocation="1157" maxMicrosecondsPerInvocation="40334" standardDeviationMircosecondsPerInvocation="5085"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="102" invocations="392" avgMicrosecondsPerInvocation="261" maxMicrosecondsPerInvocation="8573" standardDeviationMircosecondsPerInvocation="866"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteNonnullReturnValues" totalMilliseconds="102" invocations="86" avgMicrosecondsPerInvocation="1197" maxMicrosecondsPerInvocation="22532" standardDeviationMircosecondsPerInvocation="3298"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="104" invocations="86" avgMicrosecondsPerInvocation="1214" maxMicrosecondsPerInvocation="22867" standardDeviationMircosecondsPerInvocation="2914"/>
+      <ClassProfile name="edu.umd.cs.findbugs.NonReportingDetectorToDetector2Adapter" totalMilliseconds="108" invocations="4436" avgMicrosecondsPerInvocation="24" maxMicrosecondsPerInvocation="5313" standardDeviationMircosecondsPerInvocation="204"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="115" invocations="86" avgMicrosecondsPerInvocation="1343" maxMicrosecondsPerInvocation="13483" standardDeviationMircosecondsPerInvocation="2704"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="117" invocations="86" avgMicrosecondsPerInvocation="1370" maxMicrosecondsPerInvocation="16073" standardDeviationMircosecondsPerInvocation="2975"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="123" invocations="86" avgMicrosecondsPerInvocation="1440" maxMicrosecondsPerInvocation="23817" standardDeviationMircosecondsPerInvocation="4043"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="138" invocations="37" avgMicrosecondsPerInvocation="3742" maxMicrosecondsPerInvocation="12416" standardDeviationMircosecondsPerInvocation="3436"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.URLProblems" totalMilliseconds="138" invocations="86" avgMicrosecondsPerInvocation="1613" maxMicrosecondsPerInvocation="17533" standardDeviationMircosecondsPerInvocation="3472"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="140" invocations="384" avgMicrosecondsPerInvocation="365" maxMicrosecondsPerInvocation="16229" standardDeviationMircosecondsPerInvocation="1314"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SerializableIdiom" totalMilliseconds="140" invocations="86" avgMicrosecondsPerInvocation="1635" maxMicrosecondsPerInvocation="114254" standardDeviationMircosecondsPerInvocation="12248"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="145" invocations="9702" avgMicrosecondsPerInvocation="14" maxMicrosecondsPerInvocation="10104" standardDeviationMircosecondsPerInvocation="194"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="152" invocations="5027" avgMicrosecondsPerInvocation="30" maxMicrosecondsPerInvocation="10167" standardDeviationMircosecondsPerInvocation="337"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop" totalMilliseconds="172" invocations="86" avgMicrosecondsPerInvocation="2005" maxMicrosecondsPerInvocation="136991" standardDeviationMircosecondsPerInvocation="14707"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="238" invocations="392" avgMicrosecondsPerInvocation="608" maxMicrosecondsPerInvocation="14967" standardDeviationMircosecondsPerInvocation="1621"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="275" invocations="328" avgMicrosecondsPerInvocation="840" maxMicrosecondsPerInvocation="37801" standardDeviationMircosecondsPerInvocation="3230"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="300" invocations="328" avgMicrosecondsPerInvocation="917" maxMicrosecondsPerInvocation="22155" standardDeviationMircosecondsPerInvocation="2593"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="321" invocations="123" avgMicrosecondsPerInvocation="2615" maxMicrosecondsPerInvocation="26647" standardDeviationMircosecondsPerInvocation="4943"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSelfComparison" totalMilliseconds="350" invocations="86" avgMicrosecondsPerInvocation="4080" maxMicrosecondsPerInvocation="307446" standardDeviationMircosecondsPerInvocation="32934"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="401" invocations="328" avgMicrosecondsPerInvocation="1223" maxMicrosecondsPerInvocation="31806" standardDeviationMircosecondsPerInvocation="3333"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="414" invocations="460" avgMicrosecondsPerInvocation="900" maxMicrosecondsPerInvocation="71758" standardDeviationMircosecondsPerInvocation="3879"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="416" invocations="452" avgMicrosecondsPerInvocation="921" maxMicrosecondsPerInvocation="139890" standardDeviationMircosecondsPerInvocation="6701"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="491" invocations="328" avgMicrosecondsPerInvocation="1499" maxMicrosecondsPerInvocation="38949" standardDeviationMircosecondsPerInvocation="4874"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="491" invocations="100" avgMicrosecondsPerInvocation="4918" maxMicrosecondsPerInvocation="98056" standardDeviationMircosecondsPerInvocation="11809"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="499" invocations="392" avgMicrosecondsPerInvocation="1273" maxMicrosecondsPerInvocation="44308" standardDeviationMircosecondsPerInvocation="3312"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="578" invocations="328" avgMicrosecondsPerInvocation="1764" maxMicrosecondsPerInvocation="39438" standardDeviationMircosecondsPerInvocation="4692"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="782" invocations="392" avgMicrosecondsPerInvocation="1995" maxMicrosecondsPerInvocation="42592" standardDeviationMircosecondsPerInvocation="4171"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="817" invocations="261" avgMicrosecondsPerInvocation="3131" maxMicrosecondsPerInvocation="374542" standardDeviationMircosecondsPerInvocation="23277"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="880" invocations="328" avgMicrosecondsPerInvocation="2683" maxMicrosecondsPerInvocation="81373" standardDeviationMircosecondsPerInvocation="8473"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="937" invocations="420" avgMicrosecondsPerInvocation="2232" maxMicrosecondsPerInvocation="118002" standardDeviationMircosecondsPerInvocation="6923"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="1046" invocations="392" avgMicrosecondsPerInvocation="2669" maxMicrosecondsPerInvocation="71126" standardDeviationMircosecondsPerInvocation="5991"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="1070" invocations="518" avgMicrosecondsPerInvocation="2066" maxMicrosecondsPerInvocation="47667" standardDeviationMircosecondsPerInvocation="5075"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="1130" invocations="392" avgMicrosecondsPerInvocation="2883" maxMicrosecondsPerInvocation="142741" standardDeviationMircosecondsPerInvocation="9366"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1344" invocations="1473" avgMicrosecondsPerInvocation="912" maxMicrosecondsPerInvocation="337142" standardDeviationMircosecondsPerInvocation="8920"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="2003" invocations="328" avgMicrosecondsPerInvocation="6107" maxMicrosecondsPerInvocation="176798" standardDeviationMircosecondsPerInvocation="17539"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="2028" invocations="5041" avgMicrosecondsPerInvocation="402" maxMicrosecondsPerInvocation="121523" standardDeviationMircosecondsPerInvocation="2649"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="2589" invocations="1479" avgMicrosecondsPerInvocation="1750" maxMicrosecondsPerInvocation="40047" standardDeviationMircosecondsPerInvocation="4450"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

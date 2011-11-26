@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UniRank.iml" filepath="$PROJECT_DIR$/UniRank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frontend/frontend.iml" filepath="$PROJECT_DIR$/frontend/frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grabber/grabber.iml" filepath="$PROJECT_DIR$/grabber/grabber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/indexer/indexer.iml" filepath="$PROJECT_DIR$/indexer/indexer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seacher/searcher.iml" filepath="$PROJECT_DIR$/seacher/searcher.iml" />
+    </modules>
+  </component>
+</project>
+

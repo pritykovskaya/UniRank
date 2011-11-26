@@ -1,0 +1,1170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>FindBugs Report</title>
+<style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+		    color: red;
+		    font-weight: bold;
+		}
+		.priority-2 {
+		    color: orange;
+		    font-weight: bold;
+		}
+		.priority-3 {
+		    color: green;
+		    font-weight: bold;
+		}
+		.priority-4 {
+		    color: blue;
+		    font-weight: bold;
+		}
+		</style>
+<script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+</head>
+<body>
+<h1>
+<a href="http://findbugs.sourceforge.net">FindBugs</a> Report</h1>
+<h2>Project Information</h2>
+<p>Project: 
+		</p>
+<p>FindBugs version: 1.3.9</p>
+<p>Code analyzed:</p>
+<ul>
+<li>/home/natasha/UniRank/build</li>
+</ul>
+<p>
+<br/>
+<br/>
+</p>
+<h2>Metrics</h2>
+<p>2329 lines of code analyzed,
+	in 86 classes, 
+	in 20 packages.</p>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Metric</th>
+<th align="right">Total</th>
+<th align="right">Density*</th>
+</tr>
+<tr class="tablerow0">
+<td>High Priority Warnings</td>
+<td align="right">13</td>
+<td align="right">5.58</td>
+</tr>
+<tr class="tablerow1">
+<td>Medium Priority Warnings</td>
+<td align="right">38</td>
+<td align="right">16.32</td>
+</tr>
+<tr class="$totalClass">
+<td>
+<b>Total Warnings</b>
+</td>
+<td align="right">
+<b>51</b>
+</td>
+<td align="right">
+<b>21.90</b>
+</td>
+</tr>
+</table>
+<p>
+<i>(* Defects per Thousand lines of non-commenting source statements)</i>
+</p>
+<p>
+<br/>
+<br/>
+</p>
+<h2>Contents</h2>
+<ul>
+<li>
+<a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</li>
+<li>
+<a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
+</li>
+<li>
+<a href="#Warnings_EXPERIMENTAL">Experimental Warnings</a>
+</li>
+<li>
+<a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+</li>
+<li>
+<a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+</li>
+<li>
+<a href="#Warnings_SECURITY">Security Warnings</a>
+</li>
+<li>
+<a href="#Warnings_STYLE">Dodgy Warnings</a>
+</li>
+<li>
+<a href="#Details">Details</a>
+</li>
+</ul>
+<h1>Summary</h1>
+<table width="500" cellpadding="5" cellspacing="2">
+<tr class="tableheader">
+<th align="left">Warning Type</th>
+<th align="right">Number</th>
+</tr>
+<tr class="tablerow0">
+<td>
+<a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</td>
+<td align="right">4</td>
+</tr>
+<tr class="tablerow1">
+<td>
+<a href="#Warnings_CORRECTNESS">Correctness Warnings</a>
+</td>
+<td align="right">6</td>
+</tr>
+<tr class="tablerow0">
+<td>
+<a href="#Warnings_EXPERIMENTAL">Experimental Warnings</a>
+</td>
+<td align="right">25</td>
+</tr>
+<tr class="tablerow1">
+<td>
+<a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+</td>
+<td align="right">1</td>
+</tr>
+<tr class="tablerow0">
+<td>
+<a href="#Warnings_PERFORMANCE">Performance Warnings</a>
+</td>
+<td align="right">5</td>
+</tr>
+<tr class="tablerow1">
+<td>
+<a href="#Warnings_SECURITY">Security Warnings</a>
+</td>
+<td align="right">7</td>
+</tr>
+<tr class="tablerow0">
+<td>
+<a href="#Warnings_STYLE">Dodgy Warnings</a>
+</td>
+<td align="right">3</td>
+</tr>
+<tr class="tablerow1">
+<td>
+<b>Total</b>
+</td>
+<td align="right">
+<b>51</b>
+</td>
+</tr>
+</table>
+<h1>Warnings</h1>
+<p>Click on a warning row to see full context information.</p>
+<h2>
+<a name="Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N69786');">
+<td>
+<span class="priority-2">Dm</span>
+</td>
+<td>ru.unirank.indexer.Indexer.index() invokes System.exit(...), which shuts down the entire virtual machine</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N69786" style="display: none;">
+<a href="#DM_EXIT">Bug type DM_EXIT (click for details)</a>
+<br/>In class ru.unirank.indexer.Indexer<br/>In method ru.unirank.indexer.Indexer.index()<br/>At Indexer.java:[line 66]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N69108');">
+<td>
+<span class="priority-2">ODR</span>
+</td>
+<td>ru.unirank.core.db.Database.performQuery(String) may fail to close Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N69108" style="display: none;">
+<a href="#ODR_OPEN_DATABASE_RESOURCE">Bug type ODR_OPEN_DATABASE_RESOURCE (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.performQuery(String)<br/>Need to close java.sql.Statement <br/>At Database.java:[line 32]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N70211');">
+<td>
+<span class="priority-2">ODR</span>
+</td>
+<td>ru.unirank.indexer.Indexer.getDocument(ResultSet) may fail to close Statement</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N70211" style="display: none;">
+<a href="#ODR_OPEN_DATABASE_RESOURCE">Bug type ODR_OPEN_DATABASE_RESOURCE (click for details)</a>
+<br/>In class ru.unirank.indexer.Indexer<br/>In method ru.unirank.indexer.Indexer.getDocument(ResultSet)<br/>Need to close java.sql.Statement <br/>At Indexer.java:[line 94]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N65874');">
+<td>
+<span class="priority-2">Se</span>
+</td>
+<td>Class net.sf.xfresh.core.servlet.Dispatcher defines non-transient non-serializable instance field yaletProcessor</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N65874" style="display: none;">
+<a href="#SE_BAD_FIELD">Bug type SE_BAD_FIELD (click for details)</a>
+<br/>In class net.sf.xfresh.core.servlet.Dispatcher<br/>Field net.sf.xfresh.core.servlet.Dispatcher.yaletProcessor<br/>In Dispatcher.java</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_CORRECTNESS">Correctness Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66252');">
+<td>
+<span class="priority-1">EC</span>
+</td>
+<td>Call to equals() comparing different types in ru.unirank.core.db.Database.addSpeciality(Speciality)</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66252" style="display: none;">
+<a href="#EC_UNRELATED_TYPES">Bug type EC_UNRELATED_TYPES (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addSpeciality(Speciality)<br/>Actual type Integer<br/>Expected String<br/>Return value of Integer.valueOf(int)<br/>Return value of java.sql.ResultSet.getString(String)<br/>String.equals(Object) used to determine equality<br/>At Database.java:[line 189]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N69483');">
+<td>
+<span class="priority-1">NP</span>
+</td>
+<td>Null pointer dereference of System.out in ru.unirank.frontend.models.UserQueryManager.getSearchResult(String, String, String, String)</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N69483" style="display: none;">
+<a href="#NP_ALWAYS_NULL">Bug type NP_ALWAYS_NULL (click for details)</a>
+<br/>In class ru.unirank.frontend.models.UserQueryManager<br/>In method ru.unirank.frontend.models.UserQueryManager.getSearchResult(String, String, String, String)<br/>Value loaded from field java.lang.System.out<br/>Dereferenced at UserQueryManager.java:[line 37]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N69550');">
+<td>
+<span class="priority-2">NP</span>
+</td>
+<td>Possible null pointer dereference of result in ru.unirank.frontend.yalets.UserQueryYalet.process(InternalRequest, InternalResponse) on exception path</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N69550" style="display: none;">
+<a href="#NP_NULL_ON_SOME_PATH_EXCEPTION">Bug type NP_NULL_ON_SOME_PATH_EXCEPTION (click for details)</a>
+<br/>In class ru.unirank.frontend.yalets.UserQueryYalet<br/>In method ru.unirank.frontend.yalets.UserQueryYalet.process(InternalRequest, InternalResponse)<br/>Value loaded from result<br/>Dereferenced at UserQueryYalet.java:[line 47]<br/>Known null at UserQueryYalet.java:[line 41]<br/>Known null at UserQueryYalet.java:[line 43]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N69632');">
+<td>
+<span class="priority-1">NP</span>
+</td>
+<td>Null pointer dereference of System.out in ru.unirank.grabber.TopCoderWrapper.downloadOneLink(String, String)</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N69632" style="display: none;">
+<a href="#NP_ALWAYS_NULL">Bug type NP_ALWAYS_NULL (click for details)</a>
+<br/>In class ru.unirank.grabber.TopCoderWrapper<br/>In method ru.unirank.grabber.TopCoderWrapper.downloadOneLink(String, String)<br/>Value loaded from field java.lang.System.out<br/>Dereferenced at TopCoderWrapper.java:[line 16]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N70324');">
+<td>
+<span class="priority-1">NP</span>
+</td>
+<td>Null pointer dereference of System.out in ru.unirank.seacher.Searcher.search(String, UserQuery)</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N70324" style="display: none;">
+<a href="#NP_ALWAYS_NULL">Bug type NP_ALWAYS_NULL (click for details)</a>
+<br/>In class ru.unirank.seacher.Searcher<br/>In method ru.unirank.seacher.Searcher.search(String, UserQuery)<br/>Value loaded from field java.lang.System.out<br/>Dereferenced at Searcher.java:[line 47]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N70487');">
+<td>
+<span class="priority-1">NP</span>
+</td>
+<td>Null pointer dereference of System.out in ru.unirank.searcher.Searcher.search(String, UserQuery)</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N70487" style="display: none;">
+<a href="#NP_ALWAYS_NULL">Bug type NP_ALWAYS_NULL (click for details)</a>
+<br/>In class ru.unirank.searcher.Searcher<br/>In method ru.unirank.searcher.Searcher.search(String, UserQuery)<br/>Value loaded from field java.lang.System.out<br/>Dereferenced at Searcher.java:[line 47]</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_EXPERIMENTAL">Experimental Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66374');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addDirection(Direction) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66374" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addDirection(Direction)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 136] is not discharged<br/>Path continues at Database.java:[line 137]<br/>Path continues at Database.java:[line 138]<br/>Path continues at Database.java:[line 140]<br/>Path continues at Database.java:[line 141]<br/>Path continues at Database.java:[line 142]<br/>Path continues at Database.java:[line 144]<br/>Path continues at Database.java:[line 146]<br/>Path continues at Database.java:[line 147]<br/>Path continues at Database.java:[line 149]<br/>Remaining obligations: {ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66547');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addDirection(Direction) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66547" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addDirection(Direction)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 135] is not discharged<br/>Path continues at Database.java:[line 136]<br/>Path continues at Database.java:[line 137]<br/>Path continues at Database.java:[line 138]<br/>Path continues at Database.java:[line 147]<br/>Path continues at Database.java:[line 149]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66676');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addFaculty(Faculty) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66676" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addFaculty(Faculty)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 67] is not discharged<br/>Path continues at Database.java:[line 68]<br/>Path continues at Database.java:[line 69]<br/>Path continues at Database.java:[line 73]<br/>Path continues at Database.java:[line 74]<br/>Path continues at Database.java:[line 79]<br/>Path continues at Database.java:[line 83]<br/>Path continues at Database.java:[line 86]<br/>Path continues at Database.java:[line 87]<br/>Remaining obligations: {ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66838');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addFaculty(Faculty) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66838" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addFaculty(Faculty)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 66] is not discharged<br/>Path continues at Database.java:[line 67]<br/>Path continues at Database.java:[line 68]<br/>Path continues at Database.java:[line 69]<br/>Path continues at Database.java:[line 84]<br/>Path continues at Database.java:[line 85]<br/>Path continues at Database.java:[line 87]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66978');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addRanking_method(RankingMethod) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66978" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addRanking_method(RankingMethod)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 154] is not discharged<br/>Path continues at Database.java:[line 155]<br/>Path continues at Database.java:[line 156]<br/>Path continues at Database.java:[line 161]<br/>Path continues at Database.java:[line 163]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N67096');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addRanking_method(RankingMethod) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N67096" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addRanking_method(RankingMethod)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 153] is not discharged<br/>Path continues at Database.java:[line 154]<br/>Path continues at Database.java:[line 155]<br/>Path continues at Database.java:[line 156]<br/>Path continues at Database.java:[line 161]<br/>Path continues at Database.java:[line 163]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N67225');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addRanking_raw_info_description(RankingRawInfoDescription) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N67225" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addRanking_raw_info_description(RankingRawInfoDescription)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 168] is not discharged<br/>Path continues at Database.java:[line 169]<br/>Path continues at Database.java:[line 170]<br/>Path continues at Database.java:[line 175]<br/>Path continues at Database.java:[line 177]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N67343');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addRanking_raw_info_description(RankingRawInfoDescription) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N67343" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addRanking_raw_info_description(RankingRawInfoDescription)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 167] is not discharged<br/>Path continues at Database.java:[line 168]<br/>Path continues at Database.java:[line 169]<br/>Path continues at Database.java:[line 170]<br/>Path continues at Database.java:[line 175]<br/>Path continues at Database.java:[line 177]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N67472');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addRanking_raw_info_result(RankingRawInfoResult) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N67472" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addRanking_raw_info_result(RankingRawInfoResult)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 120] is not discharged<br/>Path continues at Database.java:[line 121]<br/>Path continues at Database.java:[line 122]<br/>Path continues at Database.java:[line 128]<br/>Path continues at Database.java:[line 130]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N67590');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addRanking_raw_info_result(RankingRawInfoResult) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N67590" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addRanking_raw_info_result(RankingRawInfoResult)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 119] is not discharged<br/>Path continues at Database.java:[line 120]<br/>Path continues at Database.java:[line 121]<br/>Path continues at Database.java:[line 122]<br/>Path continues at Database.java:[line 128]<br/>Path continues at Database.java:[line 130]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N67719');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addRanking_result(RankingResult) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N67719" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addRanking_result(RankingResult)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 93] is not discharged<br/>Path continues at Database.java:[line 94]<br/>Path continues at Database.java:[line 95]<br/>Path continues at Database.java:[line 96]<br/>Path continues at Database.java:[line 101]<br/>Path continues at Database.java:[line 102]<br/>Path continues at Database.java:[line 107]<br/>Path continues at Database.java:[line 111]<br/>Path continues at Database.java:[line 114]<br/>Path continues at Database.java:[line 115]<br/>Remaining obligations: {ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N67892');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addRanking_result(RankingResult) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N67892" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addRanking_result(RankingResult)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 92] is not discharged<br/>Path continues at Database.java:[line 93]<br/>Path continues at Database.java:[line 94]<br/>Path continues at Database.java:[line 95]<br/>Path continues at Database.java:[line 96]<br/>Path continues at Database.java:[line 112]<br/>Path continues at Database.java:[line 113]<br/>Path continues at Database.java:[line 115]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N68043');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addSpeciality(Speciality) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N68043" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addSpeciality(Speciality)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 182] is not discharged<br/>Path continues at Database.java:[line 183]<br/>Path continues at Database.java:[line 184]<br/>Path continues at Database.java:[line 186]<br/>Path continues at Database.java:[line 187]<br/>Path continues at Database.java:[line 188]<br/>Path continues at Database.java:[line 191]<br/>Path continues at Database.java:[line 193]<br/>Path continues at Database.java:[line 194]<br/>Path continues at Database.java:[line 196]<br/>Remaining obligations: {ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N68216');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addSpeciality(Speciality) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N68216" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addSpeciality(Speciality)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 181] is not discharged<br/>Path continues at Database.java:[line 182]<br/>Path continues at Database.java:[line 183]<br/>Path continues at Database.java:[line 184]<br/>Path continues at Database.java:[line 194]<br/>Path continues at Database.java:[line 196]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N68345');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addSpeciality_faculty(SpecialityFaculty) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N68345" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addSpeciality_faculty(SpecialityFaculty)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 202] is not discharged<br/>Path continues at Database.java:[line 203]<br/>Path continues at Database.java:[line 204]<br/>Path continues at Database.java:[line 209]<br/>Path continues at Database.java:[line 211]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N68463');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addSpeciality_faculty(SpecialityFaculty) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N68463" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addSpeciality_faculty(SpecialityFaculty)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 201] is not discharged<br/>Path continues at Database.java:[line 202]<br/>Path continues at Database.java:[line 203]<br/>Path continues at Database.java:[line 204]<br/>Path continues at Database.java:[line 209]<br/>Path continues at Database.java:[line 211]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N68592');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addUniversity(University) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N68592" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addUniversity(University)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 42] is not discharged<br/>Path continues at Database.java:[line 43]<br/>Path continues at Database.java:[line 44]<br/>Path continues at Database.java:[line 46]<br/>Path continues at Database.java:[line 48]<br/>Path continues at Database.java:[line 49]<br/>Path continues at Database.java:[line 54]<br/>Path continues at Database.java:[line 57]<br/>Path continues at Database.java:[line 60]<br/>Path continues at Database.java:[line 61]<br/>Remaining obligations: {ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N68765');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addUniversity(University) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N68765" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addUniversity(University)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 41] is not discharged<br/>Path continues at Database.java:[line 42]<br/>Path continues at Database.java:[line 43]<br/>Path continues at Database.java:[line 44]<br/>Path continues at Database.java:[line 58]<br/>Path continues at Database.java:[line 59]<br/>Path continues at Database.java:[line 61]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N68905');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.performQuery(String) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N68905" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.performQuery(String)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 33] is not discharged<br/>Path continues at Database.java:[line 36]<br/>Path continues at Database.java:[line 37]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N69001');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.performQuery(String) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N69001" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.performQuery(String)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Database.java:[line 32] is not discharged<br/>Path continues at Database.java:[line 33]<br/>Path continues at Database.java:[line 36]<br/>Path continues at Database.java:[line 37]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N69699');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.grabber.TopCoderWrapper.downloadOneLink(String, String) may fail to clean up java.io.Writer</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N69699" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.grabber.TopCoderWrapper<br/>In method ru.unirank.grabber.TopCoderWrapper.downloadOneLink(String, String)<br/>Reference type java.io.Writer<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at TopCoderWrapper.java:[line 20] is not discharged<br/>Path continues at TopCoderWrapper.java:[line 21]<br/>Remaining obligations: {Writer x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N69838');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.indexer.Indexer.getDocument(ResultSet) may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N69838" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.indexer.Indexer<br/>In method ru.unirank.indexer.Indexer.getDocument(ResultSet)<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Indexer.java:[line 95] is not discharged<br/>Path continues at Indexer.java:[line 96]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N69923');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.indexer.Indexer.getDocument(ResultSet) may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N69923" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.indexer.Indexer<br/>In method ru.unirank.indexer.Indexer.getDocument(ResultSet)<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Indexer.java:[line 94] is not discharged<br/>Path continues at Indexer.java:[line 95]<br/>Path continues at Indexer.java:[line 96]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N70019');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.indexer.Indexer.index() may fail to clean up java.sql.ResultSet</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N70019" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.indexer.Indexer<br/>In method ru.unirank.indexer.Indexer.index()<br/>Reference type java.sql.ResultSet<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Indexer.java:[line 70] is not discharged<br/>Path continues at Indexer.java:[line 73]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N70104');">
+<td>
+<span class="priority-2">OBL</span>
+</td>
+<td>Method ru.unirank.indexer.Indexer.index() may fail to clean up java.sql.Statement</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N70104" style="display: none;">
+<a href="#OBL_UNSATISFIED_OBLIGATION">Bug type OBL_UNSATISFIED_OBLIGATION (click for details)</a>
+<br/>In class ru.unirank.indexer.Indexer<br/>In method ru.unirank.indexer.Indexer.index()<br/>Reference type java.sql.Statement<br/>1 instances of obligation remaining<br/>Obligation to clean up resource created at Indexer.java:[line 68] is not discharged<br/>Path continues at Indexer.java:[line 69]<br/>Path continues at Indexer.java:[line 70]<br/>Path continues at Indexer.java:[line 73]<br/>Remaining obligations: {Statement x 1,ResultSet x 1}</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N65988');">
+<td>
+<span class="priority-2">EI2</span>
+</td>
+<td>net.sf.xfresh.jetty.JettyServerInitializer.setHandlers(Handler[]) may expose internal representation by storing an externally mutable object into JettyServerInitializer.handlers</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N65988" style="display: none;">
+<a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+<br/>In class net.sf.xfresh.jetty.JettyServerInitializer<br/>In method net.sf.xfresh.jetty.JettyServerInitializer.setHandlers(Handler[])<br/>Field net.sf.xfresh.jetty.JettyServerInitializer.handlers<br/>Local variable named handlers<br/>At JettyServerInitializer.java:[line 37]</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_PERFORMANCE">Performance Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N70274');">
+<td>
+<span class="priority-2">UrF</span>
+</td>
+<td>Unread field: ru.unirank.indexer.Indexer.tableName</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N70274" style="display: none;">
+<a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+<br/>In class ru.unirank.indexer.Indexer<br/>Field ru.unirank.indexer.Indexer.tableName<br/>At Indexer.java:[line 50]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N70391');">
+<td>
+<span class="priority-2">UrF</span>
+</td>
+<td>Unread field: ru.unirank.seacher.UserQuery.id</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N70391" style="display: none;">
+<a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+<br/>In class ru.unirank.seacher.UserQuery<br/>Field ru.unirank.seacher.UserQuery.id<br/>At UserQuery.java:[line 61]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N70554');">
+<td>
+<span class="priority-2">UrF</span>
+</td>
+<td>Unread field: ru.unirank.searcher.UserQuery.id</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N70554" style="display: none;">
+<a href="#URF_UNREAD_FIELD">Bug type URF_UNREAD_FIELD (click for details)</a>
+<br/>In class ru.unirank.searcher.UserQuery<br/>Field ru.unirank.searcher.UserQuery.id<br/>At UserQuery.java:[line 61]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N70441');">
+<td>
+<span class="priority-2">UuF</span>
+</td>
+<td>Unused field: ru.unirank.seacher.UserQuery.universityId</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N70441" style="display: none;">
+<a href="#UUF_UNUSED_FIELD">Bug type UUF_UNUSED_FIELD (click for details)</a>
+<br/>In class ru.unirank.seacher.UserQuery<br/>Field ru.unirank.seacher.UserQuery.universityId<br/>In UserQuery.java</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N70604');">
+<td>
+<span class="priority-2">UuF</span>
+</td>
+<td>Unused field: ru.unirank.searcher.UserQuery.universityId</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N70604" style="display: none;">
+<a href="#UUF_UNUSED_FIELD">Bug type UUF_UNUSED_FIELD (click for details)</a>
+<br/>In class ru.unirank.searcher.UserQuery<br/>Field ru.unirank.searcher.UserQuery.universityId<br/>In UserQuery.java</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_SECURITY">Security Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66200');">
+<td>
+<span class="priority-2">Dm</span>
+</td>
+<td>Hardcoded constant database password in ru.unirank.core.db.Database.connectToDB()</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66200" style="display: none;">
+<a href="#DMI_CONSTANT_DB_PASSWORD">Bug type DMI_CONSTANT_DB_PASSWORD (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.connectToDB()<br/>At Database.java:[line 21]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N69171');">
+<td>
+<span class="priority-1">SQL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addDirection(Direction) passes a nonconstant String to an execute method on an SQL statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N69171" style="display: none;">
+<a href="#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE">Bug type SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addDirection(Direction)<br/>At Database.java:[line 145]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N69223');">
+<td>
+<span class="priority-1">SQL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addFaculty(Faculty) passes a nonconstant String to an execute method on an SQL statement</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N69223" style="display: none;">
+<a href="#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE">Bug type SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addFaculty(Faculty)<br/>At Database.java:[line 80]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N69275');">
+<td>
+<span class="priority-1">SQL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addRanking_method(RankingMethod) passes a nonconstant String to an execute method on an SQL statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N69275" style="display: none;">
+<a href="#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE">Bug type SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addRanking_method(RankingMethod)<br/>At Database.java:[line 159]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N69327');">
+<td>
+<span class="priority-1">SQL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addRanking_raw_info_description(RankingRawInfoDescription) passes a nonconstant String to an execute method on an SQL statement</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N69327" style="display: none;">
+<a href="#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE">Bug type SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addRanking_raw_info_description(RankingRawInfoDescription)<br/>At Database.java:[line 173]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N69379');">
+<td>
+<span class="priority-1">SQL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addSpeciality(Speciality) passes a nonconstant String to an execute method on an SQL statement</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N69379" style="display: none;">
+<a href="#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE">Bug type SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addSpeciality(Speciality)<br/>At Database.java:[line 192]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N69431');">
+<td>
+<span class="priority-1">SQL</span>
+</td>
+<td>Method ru.unirank.core.db.Database.addUniversity(University) passes a nonconstant String to an execute method on an SQL statement</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N69431" style="display: none;">
+<a href="#SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE">Bug type SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.addUniversity(University)<br/>At Database.java:[line 55]</p>
+</td>
+</tr>
+</table>
+<h2>
+<a name="Warnings_STYLE">Dodgy Warnings</a>
+</h2>
+<table class="warningtable" width="100%" cellspacing="0">
+<tr class="tableheader">
+<th align="left">Code</th>
+<th align="left">Warning</th>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N65920');">
+<td>
+<span class="priority-2">DLS</span>
+</td>
+<td>Dead store to value in net.sf.xfresh.core.xml.Xmler.tag(String, String)</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N65920" style="display: none;">
+<a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
+<br/>In class net.sf.xfresh.core.xml.Xmler<br/>In method net.sf.xfresh.core.xml.Xmler.tag(String, String)<br/>Local variable named value<br/>At Xmler.java:[line 154]</p>
+</td>
+</tr>
+<tr class="tablerow0" onclick="toggleRow('N66061');">
+<td>
+<span class="priority-1">DLS</span>
+</td>
+<td>Dead store to context in net.sf.xfresh.util.Starter.main(String[])</td>
+</tr>
+<tr class="detailrow0">
+<td/>
+<td>
+<p id="N66061" style="display: none;">
+<a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
+<br/>In class net.sf.xfresh.util.Starter<br/>In method net.sf.xfresh.util.Starter.main(String[])<br/>Local variable named context<br/>At Starter.java:[line 18]</p>
+</td>
+</tr>
+<tr class="tablerow1" onclick="toggleRow('N66129');">
+<td>
+<span class="priority-1">DLS</span>
+</td>
+<td>Dead store to rs in ru.unirank.core.db.Database.performQuery(String)</td>
+</tr>
+<tr class="detailrow1">
+<td/>
+<td>
+<p id="N66129" style="display: none;">
+<a href="#DLS_DEAD_LOCAL_STORE">Bug type DLS_DEAD_LOCAL_STORE (click for details)</a>
+<br/>In class ru.unirank.core.db.Database<br/>In method ru.unirank.core.db.Database.performQuery(String)<br/>Local variable named rs<br/>At Database.java:[line 33]</p>
+</td>
+</tr>
+</table>
+<h1>
+<a name="Details">Details</a>
+</h1>
+<h2>
+<a name="DLS_DEAD_LOCAL_STORE">DLS_DEAD_LOCAL_STORE: Dead store to local variable</a>
+</h2>
+
+<p>
+This instruction assigns a value to a local variable,
+but the value is not read or used in any subsequent instruction.
+Often, this indicates an error, because the value computed is never
+used.
+</p>
+<p>
+Note that Sun's javac compiler often generates dead stores for
+final local variables.  Because FindBugs is a bytecode-based tool,
+there is no easy way to eliminate these false positives.
+</p>
+
+    
+<h2>
+<a name="DMI_CONSTANT_DB_PASSWORD">DMI_CONSTANT_DB_PASSWORD: Hardcoded constant database password</a>
+</h2>
+      
+	<p>This code creates a database connect using a hardcoded, constant password. Anyone with access to either the source code or the compiled code can 
+	easily learn the password.
+</p>
+
+
+    
+<h2>
+<a name="DM_EXIT">DM_EXIT: Method invokes System.exit(...)</a>
+</h2>
+
+  <p> Invoking System.exit shuts down the entire Java virtual machine. This
+   should only been done when it is appropriate. Such calls make it
+   hard or impossible for your code to be invoked by other code.
+   Consider throwing a RuntimeException instead.</p>
+
+    
+<h2>
+<a name="EC_UNRELATED_TYPES">EC_UNRELATED_TYPES: Call to equals() comparing different types</a>
+</h2>
+
+<p> This method calls equals(Object) on two references of different
+class types with no common subclasses.
+Therefore, the objects being compared
+are unlikely to be members of the same class at runtime
+(unless some application classes were not analyzed, or dynamic class
+loading can occur at runtime).
+According to the contract of equals(),
+objects of different
+classes should always compare as unequal; therefore, according to the
+contract defined by java.lang.Object.equals(Object),
+the result of this comparison will always be false at runtime.
+</p>
+
+    
+<h2>
+<a name="EI_EXPOSE_REP2">EI_EXPOSE_REP2: May expose internal representation by incorporating reference to mutable object</a>
+</h2>
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    
+<h2>
+<a name="NP_ALWAYS_NULL">NP_ALWAYS_NULL: Null pointer dereference</a>
+</h2>
+
+<p> A null pointer is dereferenced here.&nbsp; This will lead to a
+<code>NullPointerException</code> when the code is executed.</p>
+
+    
+<h2>
+<a name="NP_NULL_ON_SOME_PATH_EXCEPTION">NP_NULL_ON_SOME_PATH_EXCEPTION: Possible null pointer dereference in method on exception path</a>
+</h2>
+
+<p> A reference value which is null on some exception control path is
+dereferenced here.&nbsp; This may lead to a <code>NullPointerException</code>
+when the code is executed.&nbsp;
+Note that because FindBugs currently does not prune infeasible exception paths,
+this may be a false warning.</p>
+
+<p> Also note that FindBugs considers the default case of a switch statement to
+be an exception path, since the default case is often infeasible.</p>
+
+    
+<h2>
+<a name="OBL_UNSATISFIED_OBLIGATION">OBL_UNSATISFIED_OBLIGATION: Method may fail to clean up stream or resource</a>
+</h2>
+		  
+		  <p>
+		  This method may fail to clean up (close, dispose of) a stream,
+		  database object, or other
+		  resource requiring an explicit cleanup operation.
+		  </p>
+		  
+		  <p>
+		  In general, if a method opens a stream or other resource,
+		  the method should use a try/finally block to ensure that
+		  the stream or resource is cleaned up before the method
+		  returns.
+		  </p>
+		  
+		  <p>
+		  This bug pattern is essentially the same as the
+		  OS_OPEN_STREAM and ODR_OPEN_DATABASE_RESOURCE
+		  bug patterns, but is based on a different
+		  (and hopefully better) static analysis technique.
+		  We are interested is getting feedback about the
+		  usefulness of this bug pattern.
+		  To send feedback, either:
+		  </p>
+		  <ul>
+			<li>send email to findbugs@cs.umd.edu</li>
+			<li>file a bug report: <a href="http://findbugs.sourceforge.net/reportingBugs.html">http://findbugs.sourceforge.net/reportingBugs.html</a></li>
+		  </ul>
+		  
+		  <p>
+		  In particular,
+		  the false-positive suppression heuristics for this
+		  bug pattern have not been extensively tuned, so
+		  reports about false positives are helpful to us.
+		  </p>
+		  
+		  <p>
+		  See Weimer and Necula, <i>Finding and Preventing Run-Time Error Handling Mistakes</i>, for
+		  a description of the analysis technique.
+		  </p>
+		  
+	  
+<h2>
+<a name="ODR_OPEN_DATABASE_RESOURCE">ODR_OPEN_DATABASE_RESOURCE: Method may fail to close database resource</a>
+</h2>
+
+<p> The method creates a database resource (such as a database connection
+or row set), does not assign it to any
+fields, pass it to other methods, or return it, and does not appear to close
+the object on all paths out of the method.&nbsp; Failure to
+close database resources on all paths out of a method may
+result in poor performance, and could cause the application to
+have problems communicating with the database.
+</p>
+
+    
+<h2>
+<a name="SE_BAD_FIELD">SE_BAD_FIELD: Non-transient non-serializable instance field in serializable class</a>
+</h2>
+
+<p> This Serializable class defines a non-primitive instance field which is neither transient,
+Serializable, or <code>java.lang.Object</code>, and does not appear to implement
+the <code>Externalizable</code> interface or the
+<code>readObject()</code> and <code>writeObject()</code> methods.&nbsp;
+Objects of this class will not be deserialized correctly if a non-Serializable
+object is stored in this field.</p>
+
+    
+<h2>
+<a name="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE">SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE: Nonconstant string passed to execute method on an SQL statement</a>
+</h2>
+
+  <p>The method invokes the execute method on an SQL statement with a String that seems
+to be dynamically generated. Consider using
+a prepared statement instead. It is more efficient and less vulnerable to
+SQL injection attacks.
+</p>
+
+    
+<h2>
+<a name="URF_UNREAD_FIELD">URF_UNREAD_FIELD: Unread field</a>
+</h2>
+
+  <p> This field is never read.&nbsp; Consider removing it from the class.</p>
+
+    
+<h2>
+<a name="UUF_UNUSED_FIELD">UUF_UNUSED_FIELD: Unused field</a>
+</h2>
+
+  <p> This field is never used.&nbsp; Consider removing it from the class.</p>
+
+    </body>
+</html>
