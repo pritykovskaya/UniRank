@@ -53,7 +53,6 @@ public class SpecialityManager {
             }
             if( this.getSpecialityIdByName(speciality.getName()) > 0){
                 log.error("Such Speciality already exist");
-                //System.out.println("Such Speciality already exist");
                 return this.getSpecialityIdByName(speciality.getName());
             }
             simplejdbcTemplate.getJdbcOperations().update("INSERT INTO Speciality (id, direction_id, name) VALUES(?,?,?)",
@@ -61,7 +60,6 @@ public class SpecialityManager {
                     new int[]{Types.INTEGER, Types.INTEGER, Types.VARCHAR});
              return lastId;
         } catch (DataAccessException e) {
-                //System.out.println(e);
                 log.error("cannot add Speciality");
         }
         return 0;
