@@ -54,8 +54,7 @@ public class RankingRawDescriptionManager {
                     new int[]{Types.INTEGER, Types.VARCHAR});
             return lastId;
         } catch (DataAccessException e) {
-            System.out.println(e);
-            //log.error("cannot add RankingRawDescription");
+            log.error("cannot add RankingRawDescription");
         }
         return 0;
     }

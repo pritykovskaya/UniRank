@@ -48,7 +48,7 @@ public class RankingMethodManager {
             }
             DirectionManager direct = new DirectionManager(simplejdbcTemplate);
             if(direct.getDirectionIdByName(name) == 0){
-                System.out.println("The foreign key does not exist");
+                log.error("The foreign key does not exist");
                 return 0;
             }
             simplejdbcTemplate.getJdbcOperations().update("INSERT INTO RankingMethod (id, direction_id, raw_description_id, coeff, implement_class) VALUES(?,?,?,?,?)",
@@ -56,8 +56,7 @@ public class RankingMethodManager {
                     new int[]{Types.INTEGER, Types.INTEGER, Types.INTEGER, Types.INTEGER, Types.VARCHAR});
              return lastId;
         } catch (DataAccessException e) {
-                System.out.println(e);
-                //log.error("cannot add RankingMethod");
+                log.error("cannot add RankingMethod");
         }
         return 0;
     }

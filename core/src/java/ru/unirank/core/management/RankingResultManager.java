@@ -55,7 +55,7 @@ public class RankingResultManager {
             UniversityManager university = new UniversityManager(simplejdbcTemplate);
             TableOfFactsManager tableOfFacts = new TableOfFactsManager(simplejdbcTemplate);
             if (faculty.getFacultyIdByName(faculty_name) == 0 || !methodic.exist(method)) {
-                System.out.println("The foreign key does not exist");
+                log.error("The foreign key does not exist");
                 return 0;
             }
             int facultet = 0;
@@ -69,8 +69,7 @@ public class RankingResultManager {
             tableOfFacts.addTableOfFacts(lastId,facultet);
             return lastId;
         } catch (DataAccessException e) {
-            System.out.println(e);
-            //log.error("cannot add RankingResult");
+            log.error("cannot add RankingResult");
         }
         return 0;
     }

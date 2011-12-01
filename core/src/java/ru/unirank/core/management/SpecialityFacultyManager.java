@@ -48,7 +48,7 @@ public class SpecialityFacultyManager {
             FacultyManager faculty = new FacultyManager(simplejdbcTemplate);
             UniversityManager university = new UniversityManager(simplejdbcTemplate);
             if (speciality.getSpecialityIdByName(special) == 0 || faculty.getFacultyIdByName(faculty_name) == 0) {
-                System.out.println("The foreign key does not exist");
+                log.error("The foreign key does not exist");
                 return;
             }
             int facultet = 0;
@@ -62,8 +62,7 @@ public class SpecialityFacultyManager {
                     new int[]{Types.INTEGER, Types.INTEGER});
             return;
         } catch (DataAccessException e) {
-            System.out.println(e);
-            //log.error("cannot add SpecialityFaculty");
+            log.error("cannot add SpecialityFaculty");
         }
     }
 

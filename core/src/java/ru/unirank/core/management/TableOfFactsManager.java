@@ -36,8 +36,7 @@ public class TableOfFactsManager {
         simplejdbcTemplate.update("TRUNCATE TABLE TableOfFacts");
         }catch (DataAccessException ex)
         {
-            System.out.println("something wrong" + ex);          
-            //log.error("error in cleaning Data");
+            log.error("error in cleaning Data");
         }
     }
     public int addTableOfFacts(int rank_id, int facult_id) {
@@ -69,8 +68,7 @@ public class TableOfFactsManager {
                     new int[]{Types.INTEGER, Types.INTEGER, Types.INTEGER, Types.INTEGER, Types.INTEGER, Types.VARCHAR, Types.INTEGER, Types.INTEGER, Types.INTEGER, Types.DOUBLE,});
              return lastId;
         } catch (DataAccessException e) {
-                System.out.println("something wrong");
-                //log.error("cannot add TableOfFacts");
+                log.error("cannot add TableOfFacts");
         }
         return 0;
     }

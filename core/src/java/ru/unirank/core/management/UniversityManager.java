@@ -36,20 +36,18 @@ public class UniversityManager {
         simplejdbcTemplate.update("TRUNCATE TABLE University");
         }catch (DataAccessException ex)
         {
-            System.out.println("something wrong" + ex);          
-            //log.error("error in cleaning Data");
+            log.error("error in cleaning Data");
         }
     }
     public int addUniversity(University university) {
         try {
-           // log.error("cannot add University");
             List id = simplejdbcTemplate.getJdbcOperations().queryForList("SELECT id from University", Integer.class);
             int lastId = 1;
             if( id.size() > 0){
                  lastId = (Integer)(id.get(id.size()-1)) + 1;
             }
             if ( this.getUniversityIdByName(university.getName()) > 0 ){
-                System.out.println("Such University already exist");
+                log.error("Such University already exist");
                 return this.getUniversityIdByName(university.getName());
             }
             simplejdbcTemplate.getJdbcOperations().update("INSERT INTO University (id, name, city, description) VALUES(?,?,?,?)",
@@ -57,7 +55,6 @@ public class UniversityManager {
                     new int[]{Types.INTEGER, Types.VARCHAR, Types.VARCHAR, Types.VARCHAR});
              return lastId;
         } catch (DataAccessException e) {
-                //System.out.println("something wrong");
                 log.error("cannot add University");
         }
         return 0;

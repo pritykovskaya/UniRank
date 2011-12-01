@@ -37,8 +37,7 @@ public class DirectionManager {
         simplejdbcTemplate.update("TRUNCATE TABLE Direction");
         }catch (DataAccessException ex)
         {
-            System.out.println("something wrong");          
-            //log.error("error in cleaning Data");
+            log.error("error in cleaning Data");
         }
     }
     public int addDirection(Direction direction) {
@@ -49,7 +48,6 @@ public class DirectionManager {
                  lastId = (Integer)(id.get(id.size()-1)) + 1;
             }
              if ( this.getDirectionIdByName(direction.getName()) > 0 ){
-                //System.out.println("Such Direction already exist");
                  log.error("Such Direction already exist");
                  return this.getDirectionIdByName(direction.getName());
             }
@@ -58,8 +56,7 @@ public class DirectionManager {
                     new int[]{Types.INTEGER, Types.VARCHAR});
              return lastId;
         } catch (DataAccessException e) {
-                System.out.println("something wrong");
-                //log.error("cannot add direction");
+                log.error("cannot add direction");
         }
         return 0;
     }

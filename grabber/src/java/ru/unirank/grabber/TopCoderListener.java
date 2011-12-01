@@ -64,32 +64,18 @@ public class TopCoderListener implements ScraperRuntimeListener {
 
             if (universityName != null && !universityName.toString().equals("")) {
 
-//                String uni_city = universityName.toString();
-//                if (uni_city.indexOf(" ") != -1) {
-//                    uni_city = uni_city.substring(0, uni_city.indexOf(" "));
-//                }
-
-
                 Variable universityCountry = (Variable) scraper.getContext().get("universityCountry");
 
-                // University uni = new University(universityName.toString(), universityCountry.toString(), "");
                 univers.addUniversity(new University(universityName.toString(), universityCountry.toString(), "description"));
-                //   Faculty faculty = new Faculty("mathematics", "");
                 facultet.addFaculty(new Faculty("mathematics", ""), universityName.toString());
                 direction.addDirection(new Direction("mathematics science"));
                 special.addSpeciality(new Speciality("applied mathematics"), "mathematics science");
                 specfak.addSpecialityFaculty("mathematics", universityName.toString(), "applied mathematics");
                 rawInfo.addRankingRawDescription(new RankingRawDescription("TopCoder rating"));
                 method.addRankingMethod(new RankingMethod(3, "Implement!", 1), "mathematics science");
-
-                //Speciality_faculty spec_fac = new Speciality_faculty(1,0);
-
                 Variable universityRank = (Variable) scraper.getContext().get("universityRank");
-                //System.out.println(uniRank);
                 Variable universityRawInfo = (Variable) scraper.getContext().get("universityRating");
                 result.addRankingResult(new RankingResult(universityRank.toInt(), universityRawInfo.toDouble()), 1, "mathematics", universityName.toString());
-                //System.out.println(uniRawInfo);
-
             }
         }
     }
