@@ -22,7 +22,7 @@ public class UserQuery {
 
     // Названия полей в индексе
     public static final String Q_FACULTY = "faculty";
-    public static final String Q_FACTS = "table_of_facts";
+    public static final String Q_FACTS = "TableOfFacts";
     public static final String F_DIRECTION = "direction";
     public static final String F_SPECIALITY = "speciality";
     public static final String F_CITY = "city";
